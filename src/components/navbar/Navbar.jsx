@@ -10,7 +10,7 @@ export const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <h3>Logo</h3>
+        <h3>Allan</h3>
 
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
           <li onClick={handleClick}>home</li>

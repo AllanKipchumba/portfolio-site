@@ -1,5 +1,4 @@
 .navbar {
-    @apply shadow-lg;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -12,7 +11,7 @@
     //
     .mobile-menu-icon {
         position: absolute;
-        margin-right: 2000px !important;
+        visibility: hidden;
     }
     .logo {
         text-decoration: none;
@@ -49,14 +48,14 @@
 
 @media screen and (max-width: 750px) {
     .mobile-menu-icon {
+        visibility: visible !important;
         display: block;
         position: absolute;
         font-size: 30px;
         color: #000;
         border: none;
         top: 15px;
-        left: 15px;
-        z-index: 500;
+        right: 25px;
     }
     .logo {
         display: flex;
