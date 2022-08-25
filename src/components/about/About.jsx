@@ -10,15 +10,19 @@ export const About = () => {
           about me
         </h1>
 
-        <div className="flex gap-8 max-w-[80%] mx-auto">
-          <div>
-            <img src={profile} alt="developer" />
+        <div className=" gap-8 lg:gap-0 grid grid-cols-1 md:grid-cols-2 max-w-[80%] mx-auto pb-[100px]">
+          <div className="flex justify-center">
+            <img
+              src={profile}
+              alt="developer"
+              className="w-[50%] md:w-[100%] lg:w-[70%]"
+            />
           </div>
-          <div>
+          <div className="lg:mt-[100px]">
             <h1 className="text-3xl font-bold mb-2">
               I am <span className="text-[#ffbd39]">Allan</span>
             </h1>
-            <p className="uppercase tracking-[5px] mb-20 text-[#999999]">
+            <p className="uppercase tracking-[5px] mb-10 text-[#999999]">
               Passionate Web Developer
             </p>
 
