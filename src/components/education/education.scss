@@ -1,3 +1,64 @@
 .education {
     background-color: #191919;
+    //@at-root
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background-color: #333333;
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 1px;
+            background: #ffbd39;
+            position: absolute;
+            left: -16px;
+            top: 5px;
+            height: calc(100% - 10px);
+        }
+        li {
+            position: relative;
+            padding-left: 15px;
+            margin-bottom: 15px;
+            &:before {
+                content: "";
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                background: #ffbd39;
+                position: absolute;
+                left: -19.5px;
+                top: 5px;
+                border-radius: 10px;
+            }
+            //@at-root
+            h1 {
+                font-size: 26px;
+                font-weight: 900;
+                line-height: 46.8px;
+                color: #ffbd39;
+            }
+            h2 {
+                font-size: 26px;
+                line-height: 39px;
+                height: 78px;
+                width: 270px;
+            }
+            h3 {
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 3px;
+                line-height: 21.6px;
+                text-transform: uppercase;
+                color: #999999;
+            }
+            p {
+                font-size: 16px;
+                line-height: 38.8px;
+                color: #999;
+                margin: 24px 0 16px 0;
+            }
+        }
+    }
 }

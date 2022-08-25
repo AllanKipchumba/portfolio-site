@@ -23,7 +23,7 @@ export const About = () => {
               I am <span className="text-[#ffbd39]">Allan</span>
             </h1>
             <p className="uppercase tracking-[5px] mb-10 text-[#999999]">
-              Passionate Web Developer
+              A Passionate Web Developer
             </p>
 
             <p className="text-[#999999]">
