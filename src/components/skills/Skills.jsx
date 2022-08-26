@@ -5,8 +5,8 @@ import ProgressBar from "@ramonak/react-progress-bar";
 export default function Skills() {
   return (
     <>
-      <div className="skills pb-[100px]">
-        <h1 className="py-14 capitalize text-[50px] font-[700] leading-[75px] text-center">
+      <div className="skills pb-[50px]">
+        <h1 className="pt-14 pb-5 capitalize text-[50px] font-[700] leading-[75px] text-center">
           my skills
         </h1>
 
