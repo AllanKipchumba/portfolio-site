@@ -4,11 +4,11 @@ import "./projects.scss";
 export function Projects() {
   return (
     <>
-      <div className="projects py-14">
+      <div className="projects">
         <h1 className="py-10 capitalize text-[50px] font-[700] leading-[75px] text-center">
           projects
         </h1>
-        <div>
+        <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[80%] mx-auto pb-[100px]">
           <div>
             <h1>StoryHub</h1>
             <p>
@@ -25,7 +25,17 @@ export function Projects() {
               <button>view code</button>
             </div>
           </div>
-          <div></div>
+          <div>
+            <h1>React-tailwind app</h1>
+            <p>
+              A simple website I made to practice my tailwind CSS skills, which
+              I had recently acquired at the time.
+            </p>
+            <div>
+              <button>View Demo</button>
+              <button>view code</button>
+            </div>
+          </div>
           <div>
             <h1>Task Manager API</h1>
             <p>
