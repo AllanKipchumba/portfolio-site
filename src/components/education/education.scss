@@ -6,7 +6,6 @@
         margin: 0;
         padding: 0;
         position: relative;
-        background-color: #333333;
         &:before {
             content: "";
             display: inline-block;
@@ -21,6 +20,7 @@
             position: relative;
             padding-left: 15px;
             margin-bottom: 15px;
+            background-color: #333333;
             &:before {
                 content: "";
                 display: inline-block;
