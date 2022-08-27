@@ -1,5 +1,9 @@
 import React from "react";
 import "./projects.scss";
+import storyhub from "./assets/storyhub.JPG";
+import rest from "./assets/rest.png";
+import sogy from "./assets/sogy.JPG";
+import simon from "./assets/simon.JPG";
 
 export function Projects() {
   return (
@@ -10,22 +14,29 @@ export function Projects() {
         </h1>
         <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[80%] mx-auto pb-[100px]">
           <div>
+            <img src={storyhub} alt="storyhub" />
             <h1>StoryHub</h1>
             <p>
               StoryHub is a website that allows people to publish and access
-              previously published information. This project has been really
-              beneficial in that it has allowed me to blend my front-end and
-              back- end skills. React, Express, and MongoDB were used to create
-              this project. JWT tokens were utilized for authentication, Data
-              persistence was used to save data locally in the browser, and the
-              Redux framework was used to manage state.
+              previously published information. This project was really
+              beneficial as it allowed me to blend my front-end and back- end
+              skills.
+            </p>
+            <p>
+              Technologies: React, Redux, Sass, Tailwind, Node, Express, MongoDB
             </p>
             <div>
-              <button>View Demo</button>
-              <button>view code</button>
+              <button>
+                <a href="https://storyhub-ui.netlify.app/">view demo</a>
+              </button>
+              <button>
+                <a href="https://github.com/AllanKipchumba/blog_UI">
+                  View Code
+                </a>
+              </button>
             </div>
           </div>
-          <div>
+          {/* <div>
             <h1>React-tailwind app</h1>
             <p>
               A simple website I made to practice my tailwind CSS skills, which
@@ -35,37 +46,46 @@ export function Projects() {
               <button>View Demo</button>
               <button>view code</button>
             </div>
-          </div>
+          </div> */}
           <div>
+            <img src={rest} alt="rest-api" />
             <h1>Task Manager API</h1>
             <p>
               A rest API that authenticated users can use to create and track
               tasks. It is a simple API that allows users to add, change, and
-              delete jobs. It makes use of jwt tokens for authentication.
-              Express and MongoDB were used to develop this project. For API
-              testing, I relied heavily on Postman.
+              delete jobs.
             </p>
+            <p>Technologies: Node, Express, MongoDB</p>
             <div>
-              <button>View Demo</button>
-              <button>view code</button>
+              <button>
+                <a href="https://github.com/AllanKipchumba/task-manager-api">
+                  view code
+                </a>
+              </button>
             </div>
           </div>
           <div>
+            <img src={sogy} alt="landing-page" />
             <h1>Landing Page</h1>
             <p>
               This was my first GitHub react project. It is a straightforward
               landing page on a hotel website that provides prospective
-              customers with a tour of the hotel as well as crucial links. This
-              project was crucial to me since I wanted to put my recently
-              acquired react abilities to use. This project was entirely built
-              in react js.
+              customers with a tour of the hotel as well as crucial links.
             </p>
+            <p>Technologies: React, CSS3</p>
             <div>
-              <button>View Demo</button>
-              <button>view code</button>
+              <button>
+                <a href="https://sogy-hotel.netlify.app/#/">View Demo</a>
+              </button>
+              <button>
+                <a href="https://github.com/AllanKipchumba/Sogy-Hotel">
+                  view code
+                </a>
+              </button>
             </div>
           </div>
           <div>
+            <img src={simon} alt="simon-game" />
             <h1>Simon Game Clone</h1>
             <p>
               Simon is an electronic game of short-term memory skill invented by
@@ -73,14 +93,19 @@ export function Projects() {
               of tones and lights that the user must repeat. If the user is
               successful, the sequence lengthens and becomes more complicated.
               When the user fails or the time limit expires, the game is ended.
-              Using vanilla JavaScript, I attempted and succeeded in creating
-              this functionality. I learnt how to manipulate the DOM and use
-              JavaScript methods, which helped me improve my JavaScript
-              understanding.
             </p>
+            <p>Technologies: Javascript, HTML5, CSS3</p>
             <div>
-              <button>View Demo</button>
-              <button>view code</button>
+              <button>
+                <a href="https://allankipchumba.github.io/simon_game_clone/">
+                  View Demo
+                </a>
+              </button>
+              <button>
+                <a href="https://github.com/AllanKipchumba/simon_game_clone">
+                  view code
+                </a>
+              </button>
             </div>
           </div>
         </div>
