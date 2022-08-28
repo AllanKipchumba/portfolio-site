@@ -1,0 +1,14 @@
+.footer {
+    background-color: #000;
+    //
+    .icon {
+        font-size: 25px;
+        margin-right: 25px;
+        cursor: pointer;
+        color: #ffbd39;
+        //
+        &:hover {
+            color: #ffac06;
+        }
+    }
+}
