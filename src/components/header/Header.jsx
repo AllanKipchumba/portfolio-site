@@ -35,7 +35,7 @@ export const Header = () => {
         <button>Hire Me</button>
       </div>
 
-      <div className="scroll-icon">
+      <div className="scroll-icon animate-bounce">
         <FiChevronDown size={40} className="icon" />
       </div>
     </div>
