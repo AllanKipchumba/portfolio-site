@@ -53,6 +53,16 @@
                 text-transform: uppercase;
                 color: #999999;
             }
+            button {
+                background-color: #4d4d4d;
+                margin: 20px 0;
+                padding: 15px;
+                border-radius: 10px;
+                //
+                &:hover {
+                    background-color: #676767;
+                }
+            }
             p {
                 font-size: 16px;
                 line-height: 38.8px;
