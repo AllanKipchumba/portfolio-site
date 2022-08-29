@@ -1,5 +1,5 @@
 .navbar {
-    position: fixed;
+    position: fixed !important;
     top: 0;
     z-index: 999;
     display: flex;
@@ -9,7 +9,7 @@
     width: 100%;
     text-transform: capitalize;
     position: relative;
-    // background-color: #fff;
+    background-color: #000;
     //
     .mobile-menu-icon {
         position: absolute;
@@ -21,6 +21,7 @@
         font-size: 25px;
         margin-left: 20px;
         font-weight: bold;
+        cursor: pointer;
     }
     .nav-links {
         display: flex;

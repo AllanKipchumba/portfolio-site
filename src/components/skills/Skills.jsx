@@ -2,10 +2,10 @@ import React from "react";
 import "./skills.scss";
 import ProgressBar from "@ramonak/react-progress-bar";
 
-export default function Skills() {
+export const Skills = () => {
   return (
     <>
-      <div className="skills pb-[50px]">
+      <div className="skills pb-[50px]" id="skills">
         <h1 className="pt-14 pb-5 capitalize text-[50px] font-[700] leading-[75px] text-center">
           my skills
         </h1>
@@ -159,4 +159,4 @@ export default function Skills() {
       </div>
     </>
   );
-}
+};
