@@ -11,7 +11,7 @@ import { SiMinutemailer } from "react-icons/si";
 export const Footer = () => {
   return (
     <>
-      <div className="footer py-14">
+      <div className="footer py-14" id="footer">
         <div className="max-w-[80%] mx-auto">
           <div className="flex gap-5 justify-center">
             <a href="#">

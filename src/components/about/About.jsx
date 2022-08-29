@@ -5,7 +5,7 @@ import profile from "./assets/profile.jpg";
 export const About = () => {
   return (
     <>
-      <div className="about">
+      <div className="about" id="about">
         <h1 className="py-14 capitalize text-[50px] font-[700] leading-[75px] text-center">
           about me
         </h1>

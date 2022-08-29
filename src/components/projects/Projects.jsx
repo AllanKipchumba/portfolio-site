@@ -5,10 +5,10 @@ import rest from "./assets/rest.png";
 import sogy from "./assets/sogy.JPG";
 import simon from "./assets/simon.JPG";
 
-export function Projects() {
+export const Projects = () => {
   return (
     <>
-      <div className="projects">
+      <div className="projects" id="projects">
         <h1 className="py-10 capitalize text-[50px] font-[700] leading-[75px] text-center">
           projects
         </h1>
@@ -112,4 +112,4 @@ export function Projects() {
       </div>
     </>
   );
-}
+};

@@ -16,9 +16,28 @@ export const Navbar = () => {
         </h3>
 
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
-          <li onClick={handleClick}>home</li>
-          <li onClick={handleClick}>about</li>
-          <li onClick={handleClick}>
+          <li
+            onClick={() => {
+              handleClick();
+              scroll.scrollToTop();
+            }}
+          >
+            home
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-65}
+              duration={1000}
+              onClick={handleClick}
+            >
+              about
+            </Link>
+          </li>
+          <li>
             <Link
               activeClass="active"
               to="skills"
@@ -26,12 +45,37 @@ export const Navbar = () => {
               smooth={true}
               offset={-65}
               duration={1000}
+              onClick={handleClick}
             >
               Skills
             </Link>
           </li>
-          <li onClick={handleClick}>projects</li>
-          <li onClick={handleClick}>contact</li>
+          <li>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-65}
+              duration={1000}
+              onClick={handleClick}
+            >
+              projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="footer"
+              spy={true}
+              smooth={true}
+              offset={-65}
+              duration={1000}
+              onClick={handleClick}
+            >
+              contact
+            </Link>
+          </li>
         </ul>
 
         <button
