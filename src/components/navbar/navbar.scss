@@ -29,7 +29,7 @@
         list-style: none;
         width: 80%;
         @media screen and (max-width: 750px) {
-            margin-right: 100px;
+            margin-right: 100px !important;
         }
         //
         li {
@@ -67,6 +67,10 @@
 /* mobile viewport */
 
 @media screen and (max-width: 750px) {
+    .logo {
+        margin-right: 400px;
+        position: fixed;
+    }
     .mobile-menu-icon {
         visibility: visible !important;
         display: block;
@@ -90,6 +94,7 @@
         height: 100vh;
         width: 50%;
         border-radius: 15px;
+        cursor: pointer;
         //
         li {
             @apply shadow-sm;

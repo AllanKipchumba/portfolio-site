@@ -10,8 +10,8 @@
         display: flex;
         justify-content: center;
         button {
-            background-color: #ffbd39;
-            color: black;
+            background-color: inherit;
+            color: #fff;
             font-size: 12px;
             font-weight: 600px;
             letter-spacing: 2px;
@@ -23,8 +23,8 @@
             padding: 16px 24px;
             //
             &:hover {
-                background-color: inherit;
-                color: #fff;
+                background-color: #ffbd39;
+                color: black;
             }
         }
     }
