@@ -7,6 +7,7 @@
             background: #333;
             position: relative;
             border-radius: 25px;
+            position: relative;
             //@at-root
             img {
                 border-radius: 15px;
@@ -17,18 +18,34 @@
                 line-height: 46.8px;
                 color: #ffbd39;
             }
-            p {
-                font-size: 16px;
-                line-height: 25px;
-                color: #999;
+            .btn {
+                background-color: #4d4d4d;
+                margin: 20px 0;
+                padding: 15px;
+                border-radius: 10px;
+                //
+                &:hover {
+                    background-color: #676767;
+                }
             }
-            div {
-                // margin-top: 20px;
-                // position: absolute;
-                // bottom: 0px;
-                //@at-root
+            .more-info {
+                position: absolute;
+                background-color: #4d4d4d;
+                top: 0vh;
+                height: 78%;
+                margin-left: -15px;
+                //
+                p {
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #e6e6e6;
+                    margin-bottom: 50px;
+                }
+                span {
+                    color: #ffac06;
+                }
                 button {
-                    background-color: #4d4d4d;
+                    background-color: #676767;
                     border-radius: 15px;
                     margin-left: 10px;
                     text-transform: capitalize;
@@ -36,7 +53,7 @@
                     width: 100px;
                     //
                     &:hover {
-                        background-color: #676767;
+                        background-color: #818181;
                     }
                 }
             }

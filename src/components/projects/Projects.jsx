@@ -1,9 +1,9 @@
 import React from "react";
 import "./projects.scss";
-import storyhub from "./assets/storyhub.JPG";
-import rest from "./assets/rest.png";
 import sogy from "./assets/sogy.JPG";
 import simon from "./assets/simon.JPG";
+import { StoryHub } from "./portfolio/StoryHub";
+import { TaskmanagerApi } from "./portfolio/TaskmanagerApi";
 
 export const Projects = () => {
   return (
@@ -14,56 +14,10 @@ export const Projects = () => {
         </h1>
         <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[80%] mx-auto pb-[100px]">
           <div>
-            <img src={storyhub} alt="storyhub" />
-            <h1>StoryHub</h1>
-            <p>
-              StoryHub is a website that allows people to publish and access
-              previously published information. This project was really
-              beneficial as it allowed me to blend my front-end and back- end
-              skills.
-            </p>
-            <p>
-              Technologies: React, Redux, Sass, Tailwind, Node, Express, MongoDB
-            </p>
-            <div>
-              <button>
-                <a href="https://storyhub-ui.netlify.app/">view demo</a>
-              </button>
-              <button>
-                <a href="https://github.com/AllanKipchumba/blog_UI">
-                  View Code
-                </a>
-              </button>
-            </div>
+            <StoryHub />
           </div>
-          {/* <div>
-            <h1>React-tailwind app</h1>
-            <p>
-              A simple website I made to practice my tailwind CSS skills, which
-              I had recently acquired at the time.
-            </p>
-            <div>
-              <button>View Demo</button>
-              <button>view code</button>
-            </div>
-          </div> */}
-          <div>
-            <img src={rest} alt="rest-api" />
-            <h1>Task Manager API</h1>
-            <p>
-              A rest API that authenticated users can use to create and track
-              tasks. It is a simple API that allows users to add, change, and
-              delete jobs.
-            </p>
-            <p>Technologies: Node, Express, MongoDB</p>
-            <div>
-              <button>
-                <a href="https://github.com/AllanKipchumba/task-manager-api">
-                  view code
-                </a>
-              </button>
-            </div>
-          </div>
+          <TaskmanagerApi />
+          <div></div>
           <div>
             <img src={sogy} alt="landing-page" />
             <h1>Landing Page</h1>
