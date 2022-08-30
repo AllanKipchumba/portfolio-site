@@ -1,60 +1,62 @@
+//reusable styles
+@mixin bgImageCustomStyles {
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(25, 25, 25, 0.9);
+}
+
 .projects {
     background-color: #191919;
     //@at-root
     .container {
+        div:nth-child(1) {
+            background-image: url("./assets/storyhub.JPG");
+            @include bgImageCustomStyles;
+        }
+        div:nth-child(2) {
+            background-image: url("./assets/rest.png");
+            @include bgImageCustomStyles;
+        }
+        div:nth-child(3) {
+            background-image: url("./assets/sogy.JPG");
+            @include bgImageCustomStyles;
+        }
+        div:nth-child(4) {
+            background-image: url("./assets/simon.JPG");
+            @include bgImageCustomStyles;
+        }
         div {
             @apply p-4;
-            background: #333;
             position: relative;
             border-radius: 25px;
             position: relative;
+            height: 250px;
+            display: flex;
+            justify-content: center;
             //@at-root
-            img {
-                border-radius: 15px;
-            }
             h1 {
-                font-size: 26px;
-                font-weight: 900;
-                line-height: 46.8px;
-                color: #ffbd39;
+                font-weight: 800;
+                color: #fff;
+                text-align: center;
+                margin-top: 50px;
+                text-transform: capitalize;
             }
-            .btn {
-                background-color: #4d4d4d;
-                margin: 20px 0;
-                padding: 15px;
-                border-radius: 10px;
-                //
-                &:hover {
-                    background-color: #676767;
-                }
-            }
-            .more-info {
+            button {
+                background-color: inherit;
+                color: #fff;
+                border: 2px solid #ffbd39;
+                padding: 20px;
+                width: 130px;
                 position: absolute;
-                background-color: #4d4d4d;
-                top: 0vh;
-                height: 78%;
-                margin-left: -15px;
-                //
-                p {
-                    font-size: 16px;
-                    line-height: 25px;
-                    color: #e6e6e6;
-                    margin-bottom: 50px;
-                }
-                span {
-                    color: #ffac06;
-                }
-                button {
-                    background-color: #676767;
-                    border-radius: 15px;
-                    margin-left: 10px;
-                    text-transform: capitalize;
-                    height: 50px;
-                    width: 100px;
-                    //
-                    &:hover {
-                        background-color: #818181;
-                    }
+                bottom: 70px;
+                border-radius: 15px;
+                text-align: center;
+                text-transform: capitalize;
+                font-weight: bolder;
+                //@at-root
+                &:hover {
+                    background-color: #ffbd39;
+                    color: black;
                 }
             }
         }
