@@ -4,12 +4,9 @@ import "./styles.scss";
 import { useNavigate } from "react-router-dom";
 
 export const StoryHub = () => {
-  const style = {
-    "background-image": "url(`../assets/storyhub.JPG`)",
-  };
   const navigate = useNavigate();
   return (
-    <div className="project-container bg-[#212124]" style={style}>
+    <div className="project-container bg-[#212124]">
       <div className="project-heading">
         <div className="md:ml-16 lg:ml-32">
           <h1>StoryHub</h1>

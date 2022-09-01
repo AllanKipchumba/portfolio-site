@@ -29,7 +29,9 @@ export const Projects = () => {
           </div>
           <div>
             <h1>SimonGame-Clone</h1>
-            <button>read more</button>
+            <button>
+              <Link to="/simon-game-clone">read more</Link>
+            </button>
           </div>
         </div>
       </div>
