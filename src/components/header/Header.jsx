@@ -10,7 +10,7 @@ export const Header = () => {
     <div className="header">
       <Navbar />
       <div className="text-white pt-[35vh]">
-        <h1 className="text-center mb-4 uppercase font-bold">Hello!</h1>
+        <h1 className="text-center mb-4 uppercase font-bold">Hello 👋</h1>
         <h1 className="text-center uppercase tracking-[6px] font-bold text-lg">
           welcome to my website
         </h1>
@@ -20,7 +20,8 @@ export const Header = () => {
           <Typed
             strings={[
               "I'm allan kipchumba",
-              "an enthusiastic web developer",
+              "a student Engineer",
+              "an enthusiastic developer",
               "i enjoy writing code",
             ]}
             typeSpeed={150}
