@@ -1,14 +1,30 @@
 .footer {
     background-color: #000;
-    //
-    .icon {
-        font-size: 25px;
-        margin-right: 25px;
-        cursor: pointer;
-        color: #ffbd39;
-        //
-        &:hover {
-            color: #ffac06;
+    //@at-root
+    h1 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+    ul {
+        li {
+            color: #808080;
+            text-transform: capitalize;
+            font-weight: bold;
+            line-height: 40px;
+            cursor: pointer;
+            //
+            &::before {
+                content: "\2192";
+                margin-right: 8px;
+            }
+            &:hover {
+                color: #676767;
+            }
         }
+    }
+    .icon {
+        color: red !important;
     }
 }
