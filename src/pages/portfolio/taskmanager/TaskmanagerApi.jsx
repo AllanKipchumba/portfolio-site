@@ -3,17 +3,14 @@ import "../main.scss";
 import "./styles.scss";
 import { useNavigate } from "react-router-dom";
 
-export const StoryHub = () => {
-  const style = {
-    "background-image": "url(`../assets/storyhub.JPG`)",
-  };
+export const TaskmanagerApi = () => {
   const navigate = useNavigate();
   return (
-    <div className="project-container bg-[#212124]" style={style}>
+    <div className="project-container bg-[rgb(33,33,36)]">
       <div className="project-heading">
         <div className="md:ml-16 lg:ml-32">
-          <h1>StoryHub</h1>
-          <p>React/ Node/ MongoDB</p>
+          <h1>Task manager API</h1>
+          <p>Node/ MongoDB</p>
         </div>
       </div>
 
@@ -23,23 +20,19 @@ export const StoryHub = () => {
             Overview
           </h2>
           <p className="text-[#bdc1c6]">
-            StoryHub is a website that allows people to publish and access
-            previously published information. This project has been really
-            beneficial in that it has allowed me to blend my front-end and back-
-            end skills. React, Express, and MongoDB were used to create this
-            project. JWT tokens were utilized for authentication, Data
-            persistence was used to save data locally in the browser, and the
-            Redux framework was used to manage state.
+            A rest API that authenticated users can use to create and track
+            tasks. It is a simple API that allows users to add, change, and
+            delete jobs. It makes use of jwt tokens for authentication. Express
+            and MongoDB were used to develop this project. For API testing, I
+            relied heavily on Postman.{" "}
           </p>
 
           <div className="btn">
             <button>
-              <a href="https://storyhub-ui.vercel.app/" target="self">
-                demo
-              </a>
-            </button>
-            <button>
-              <a href="https://github.com/AllanKipchumba/blog_UI" target="self">
+              <a
+                href="https://github.com/AllanKipchumba/task-manager-api"
+                target="self"
+              >
                 code
               </a>
             </button>
@@ -51,10 +44,9 @@ export const StoryHub = () => {
             Technologies
           </h3>
           <ul>
-            <li>React</li>
-            <li>redux</li>
-            <li>Node</li>
+            <li>Node js</li>
             <li>MongoDB</li>
+            <li>Postman</li>
           </ul>
         </div>
       </div>

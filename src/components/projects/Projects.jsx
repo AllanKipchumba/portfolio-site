@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.scss";
+import { Link } from "react-router-dom";
 
 export const Projects = () => {
   return (
@@ -11,12 +12,16 @@ export const Projects = () => {
         <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[80%] mx-auto pb-[100px]">
           <div>
             <h1>StoryHub</h1>
-            <button>read more</button>
+            <button>
+              <Link to="/storyhub">read more</Link>
+            </button>
           </div>
 
           <div>
             <h1>Task Manager-API</h1>
-            <button>read more</button>
+            <button>
+              <Link to="taskmanagerAPI">read more</Link>
+            </button>
           </div>
           <div>
             <h1>Landing Page</h1>
