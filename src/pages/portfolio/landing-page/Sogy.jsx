@@ -1,16 +1,16 @@
 import React from "react";
-import "../main.scss";
-import "./storyH-styles.scss";
 import { useNavigate } from "react-router-dom";
+import "../main.scss";
+import "./sogy-styles.scss";
 
-export const StoryHub = () => {
+export const Sogy = () => {
   const navigate = useNavigate();
   return (
     <div className="project-container bg-[#212124]">
       <div className="project-heading">
         <div className="md:ml-16 lg:ml-32">
-          <h1>StoryHub</h1>
-          <p>React/ Node/ MongoDB</p>
+          <h1>Landing page</h1>
+          <p>React</p>
         </div>
       </div>
 
@@ -20,23 +20,24 @@ export const StoryHub = () => {
             Overview
           </h2>
           <p className="text-[#bdc1c6]">
-            StoryHub is a website that allows people to publish and access
-            previously published information. This project has been really
-            beneficial in that it has allowed me to blend my front-end and back-
-            end skills. React, Express, and MongoDB were used to create this
-            project. JWT tokens were utilized for authentication, Data
-            persistence was used to save data locally in the browser, and the
-            Redux framework was used to manage state.
+            This was my first GitHub react project. It is a straightforward
+            landing page on a hotel website that provides prospective customers
+            with a tour of the hotel as well as crucial links. This project was
+            crucial to me since I wanted to put my recently acquired react
+            abilities to use. This project was entirely built in react js.
           </p>
 
           <div className="btn">
             <button>
-              <a href="https://storyhub-ui.vercel.app/" target="self">
+              <a href="https://sogy-hotel.netlify.app/#/" target="self">
                 demo
               </a>
             </button>
             <button>
-              <a href="https://github.com/AllanKipchumba/blog_UI" target="self">
+              <a
+                href="https://github.com/AllanKipchumba/Sogy-Hotel"
+                target="self"
+              >
                 code
               </a>
             </button>
@@ -49,9 +50,9 @@ export const StoryHub = () => {
           </h3>
           <ul>
             <li>React</li>
-            <li>redux</li>
-            <li>Node</li>
-            <li>MongoDB</li>
+            <li>React Bootstrap</li>
+            <li>Material UI</li>
+            <li>CSS3</li>
           </ul>
         </div>
       </div>

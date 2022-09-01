@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../main.scss";
-import "./styles.scss";
+import "./simonG-styles.scss";
 
 export const SimonGame = () => {
   const navigate = useNavigate();

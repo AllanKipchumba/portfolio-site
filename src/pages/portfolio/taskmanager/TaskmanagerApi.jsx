@@ -1,6 +1,6 @@
 import React from "react";
 import "../main.scss";
-import "./styles.scss";
+import "./taskM-styles.scss";
 import { useNavigate } from "react-router-dom";
 
 export const TaskmanagerApi = () => {
