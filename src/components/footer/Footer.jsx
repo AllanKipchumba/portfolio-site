@@ -75,6 +75,3 @@ export const Footer = () => {
     </>
   );
 };
-
-// 1. Refactored menu items to one js file, menuItems.js 2. removed MenuButtons
-// component. the comonentwas rendering a button element which can be directly rende red in the Menu.jsx file. 3. Added key to button in Menu.jsx 4. update state to index of buton clickedt
