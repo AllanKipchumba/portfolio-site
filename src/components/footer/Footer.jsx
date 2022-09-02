@@ -24,20 +24,28 @@ export const Footer = () => {
               strategic thinking skills. you pay more attention to detail in
               your environment.
             </p>
-            <h2 className="text-[#808080] mt-3">You can find me on</h2>
+            {/* <h2 className="text-[#fff] text-[17.5px] mt-3">
+              You can find me on
+            </h2> */}
 
             <div className="flex gap-2 mt-3">
               <a href="https://github.com/AllanKipchumba" target="self">
-                <AiOutlineGithub className="icon" />
+                <div className="icon">
+                  <AiOutlineGithub />
+                </div>
               </a>
               <a href="https://twitter.com/devAllan_" target="self">
-                <AiOutlineTwitter className="icon" />
+                <div className="icon">
+                  <AiOutlineTwitter />
+                </div>
               </a>
               <a
                 href="https://www.instagram.com/allan_kipchumba/"
                 target="self"
               >
-                <AiOutlineInstagram className="icon" />
+                <div className="icon">
+                  <AiOutlineInstagram />
+                </div>
               </a>
             </div>
           </div>

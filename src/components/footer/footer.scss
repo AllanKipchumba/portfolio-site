@@ -11,7 +11,6 @@
         li {
             color: #808080;
             text-transform: capitalize;
-            font-weight: bold;
             line-height: 40px;
             cursor: pointer;
             //
@@ -25,6 +24,13 @@
         }
     }
     .icon {
-        color: red !important;
+        font-size: 30px;
+        background-color: #1a1a1a;
+        padding: 20px;
+        border-radius: 50%;
+        //@at-root
+        &:hover {
+            background-color: #343434;
+        }
     }
 }
