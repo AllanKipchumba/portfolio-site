@@ -5,3 +5,13 @@
     font-family: Poppins, Arial, sans-serif;
     color: #fff;
 }
+
+.foo::before,
+.foo::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #ffbd39;
+    width: 1rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}

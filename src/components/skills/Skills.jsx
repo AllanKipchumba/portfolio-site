@@ -6,7 +6,7 @@ export const Skills = () => {
   return (
     <>
       <div className="skills pb-[50px]" id="skills">
-        <h1 className="pt-14 pb-5 capitalize text-[50px] font-[700] leading-[75px] text-center">
+        <h1 className="pt-14 foo pb-5 capitalize text-[50px] font-[700] leading-[75px] text-center">
           my skills
         </h1>
 

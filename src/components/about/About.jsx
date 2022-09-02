@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <>
       <div className="about" id="about">
-        <h1 className="py-14 capitalize text-[50px] font-[700] leading-[75px] text-center">
+        <h1 className="foo py-14 capitalize text-[50px] font-[700] leading-[75px] text-center">
           about me
         </h1>
 

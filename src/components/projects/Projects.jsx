@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <>
       <div className="projects" id="projects">
-        <h1 className="py-10 capitalize text-[50px] font-[700] leading-[75px] text-center">
+        <h1 className="foo py-10 capitalize text-[50px] font-[700] leading-[75px] text-center">
           projects
         </h1>
         <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[80%] mx-auto pb-[100px]">

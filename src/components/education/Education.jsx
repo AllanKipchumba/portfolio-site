@@ -14,7 +14,7 @@ export const Education = () => {
   return (
     <>
       <div className="education" id="education">
-        <h1 className="py-14 capitalize text-[50px] font-[700] leading-[75px] text-center">
+        <h1 className="py-14 foo capitalize text-[50px] font-[700] leading-[75px] text-center">
           Education
         </h1>
 
