@@ -5,12 +5,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60px;
+    height: 80px;
     width: 100%;
     text-transform: capitalize;
     position: relative;
-    // background-color: #000;
-    //
+    //@at-root
     .mobile-menu-icon {
         position: absolute;
         visibility: hidden;
@@ -22,6 +21,7 @@
         margin-left: 20px;
         font-weight: bold;
         cursor: pointer;
+        letter-spacing: 1px;
     }
     .nav-links {
         display: flex;
@@ -39,26 +39,12 @@
             cursor: pointer;
             text-transform: capitalize;
             color: #e6e6e6;
+            letter-spacing: 1px;
             //
-            // &:after {
-            //     content: "";
-            //     position: absolute;
-            //     width: 100%;
-            //     transform: scaleX(0);
-            //     height: 2px;
-            //     bottom: 0;
-            //     left: 0;
-            //     background-color: #0087ca;
-            //     transform-origin: bottom right;
-            //     transition: transform 0.25s ease-out;
-            // }
             &:hover {
                 color: #ffbd39;
+                text-decoration: underline;
             }
-            // &:hover:after {
-            //     transform: scaleX(1);
-            //     transform-origin: bottom left;
-            // }
         }
     }
 }
@@ -68,7 +54,7 @@
 
 @media screen and (max-width: 750px) {
     .logo {
-        margin-right: 400px;
+        margin-right: 350px;
         position: fixed;
     }
     .mobile-menu-icon {
@@ -103,6 +89,7 @@
             text-align: center;
             &:hover {
                 color: #ffbd39;
+                text-decoration: underline;
             }
             .link {
                 color: #fff;
