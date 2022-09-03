@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 
-export const DesignThinking = () => {
+export const Packages = () => {
   const [hide, setHide] = useState(false);
   return (
     <>
-      <h1>May2022</h1>
-      <h2>Design thinking</h2>
+      <h1>April2018 - Jully2018</h1>
+      <h2>Fundamentals of Computers</h2>
+      <h3>ICS college</h3>
+
       <button onClick={() => setHide(!hide)}>
         {hide ? `Close` : `Read More`}
       </button>

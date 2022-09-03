@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./education.scss";
 import { Degree } from "./schools/Degree";
-import { DesignThinking } from "./schools/DesignThinking,";
+import { Packages } from "./schools/IcsCollege";
 import { NodejsBootcamp } from "./schools/NodejsBootcamp";
 import { WebDevBootcamp } from "./schools/WebDevBootcamp";
 
@@ -25,15 +25,15 @@ export const Education = () => {
             </li>
 
             <li>
-              <WebDevBootcamp />
+              <NodejsBootcamp />
             </li>
           </ul>
           <ul>
             <li>
-              <NodejsBootcamp />
+              <WebDevBootcamp />
             </li>
             <li>
-              <DesignThinking />
+              <Packages />
             </li>
           </ul>
         </div>

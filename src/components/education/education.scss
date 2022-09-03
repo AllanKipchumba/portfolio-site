@@ -2,35 +2,14 @@
     background-color: #191919;
     //@at-root
     ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        &:before {
-            content: "";
-            display: inline-block;
-            width: 1px;
-            background: #ffbd39;
-            position: absolute;
-            left: -16px;
-            top: 5px;
-            height: calc(100% - 10px);
-        }
         li {
-            position: relative;
             padding-left: 15px;
             margin-bottom: 15px;
             background-color: #333333;
-            &:before {
-                content: "";
-                display: inline-block;
-                width: 8px;
-                height: 8px;
-                background: #ffbd39;
-                position: absolute;
-                left: -19.5px;
-                top: 5px;
-                border-radius: 10px;
+            border-radius: 10px;
+            //@at-root
+            &:hover {
+                background-color: #4d4d4d;
             }
             //@at-root
             h1 {
@@ -42,7 +21,6 @@
             h2 {
                 font-size: 26px;
                 line-height: 39px;
-                // margin-bottom: 10px;
             }
             h3 {
                 font-size: 12px;
