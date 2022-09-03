@@ -25,9 +25,9 @@ export const Degree = () => {
           develop a broad range of technical thinking skills. When approaching a
           problem, you are constantly challenged to stretch your thinking and
           consider all possibilities. It is an intriguing STEM field that I
-          would recommend it to anyone who is interested in Science, Technology,
-          Engineering and Mathematics. Every experience I've had in engineering
-          school is immensely valuable to me.
+          would recommend to anyone that is immensely interested in Science,
+          Technology, Engineering and Mathematics. Every experience I've had in
+          engineering school is immensely valuable to me.
         </p>
       )}
     </>
