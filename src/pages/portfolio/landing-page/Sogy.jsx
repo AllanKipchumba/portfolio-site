@@ -24,7 +24,8 @@ export const Sogy = () => {
             landing page on a hotel website that provides prospective customers
             with a tour of the hotel as well as crucial links. This project was
             crucial to me since I wanted to put my recently acquired react
-            abilities to use. This project was entirely built in react js.
+            abilities, at the time, to use. This project was entirely built in
+            React.
           </p>
 
           <div className="btn">
@@ -50,7 +51,7 @@ export const Sogy = () => {
           </h3>
           <ul>
             <li>React</li>
-            <li>React Bootstrap</li>
+            <li>Bootstrap</li>
             <li>Material UI</li>
             <li>CSS3</li>
           </ul>

@@ -17,12 +17,11 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <h1>About</h1>
             <p className="text-[#808080]">
-              This is the official website for Allan Kipchumba. Allan is a
-              passionate developer who is deeply invested in software
-              engineering and loves everything about coding. coding is
-              intriguing as it shappens one's wits, creative thinking and
-              strategic thinking skills. you pay more attention to detail in
-              your environment.
+              This is Allan Kipchumba's official website. Allan is a dedicated
+              developer who is deeply invested in software engineering and
+              enjoys all aspects of coding. Coding is fascinating because it
+              shapes one's wits, creative thinking, and strategic thinking
+              abilities. You are more attentive to detail in your surroundings.
             </p>
             {/* <h2 className="text-[#fff] text-[17.5px] mt-3">
               You can find me on

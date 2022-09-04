@@ -44,7 +44,7 @@ export const TaskmanagerApi = () => {
             Technologies
           </h3>
           <ul>
-            <li>Node js</li>
+            <li>Node</li>
             <li>MongoDB</li>
             <li>Postman</li>
           </ul>
