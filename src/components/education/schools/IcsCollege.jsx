@@ -13,11 +13,16 @@ export const Packages = () => {
       </button>
       {hide && (
         <p>
-          How to define problems in a human-centric manner. The dangers of
-          unconscious bias The importance of prototyping and iteration Including
-          diversity in your thinking Learn how to use the design thinking
-          framework to solve a variety of problems. The significance of
-          brainstorming and ideation
+          I should concede that this was my first practical experience with
+          computing. I was just a high school freshman who wanted to be a part
+          of the digital revolution. I was eager to learn how to use computers,
+          and I did so. The three-month course covered the fundamentals of
+          computing, including the Microsoft Office suite, networking, and the
+          Internet. I learned the fundamentals of designing word documents, data
+          analysis using excel spreadsheets, establishing a simple network, and
+          how to use the internet to learn and keep up with the latest trends.
+          During this course, I began to develop an interest in learning about
+          computer software.
         </p>
       )}
     </>
