@@ -13,23 +13,7 @@ export const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 max-w-[80%] gap-14 p-10 mx-auto">
           <div>
             <div>
-              <p>
-                JavaScript <span>80%</span>
-              </p>
-              <ProgressBar
-                completed={80}
-                bgColor="#ffbd39"
-                baseBgColor="#1a1a1a"
-                isLabelVisible={false}
-                transitionDuration="2s"
-                animateOnRender={true}
-                height="10px"
-              />
-            </div>
-            <div>
-              <p>
-                React.js <span>90%</span>
-              </p>
+              <p>JavaScript</p>
               <ProgressBar
                 completed={90}
                 bgColor="#ffbd39"
@@ -41,9 +25,7 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>
-                Redux <span>95%</span>
-              </p>
+              <p>React.js</p>
               <ProgressBar
                 completed={95}
                 bgColor="#ffbd39"
@@ -55,9 +37,19 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>
-                Sass <span>98%</span>
-              </p>
+              <p>Redux</p>
+              <ProgressBar
+                completed={95}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
+              <p>Sass</p>
               <ProgressBar
                 completed={98}
                 bgColor="#ffbd39"
@@ -69,9 +61,7 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>
-                Tailwind css <span>95%</span>
-              </p>
+              <p>Tailwind css</p>
               <ProgressBar
                 completed={95}
                 bgColor="#ffbd39"
@@ -85,23 +75,7 @@ export const Skills = () => {
           </div>
           <div>
             <div>
-              <p>
-                Node.js <span>70%</span>
-              </p>
-              <ProgressBar
-                completed={70}
-                bgColor="#ffbd39"
-                baseBgColor="#1a1a1a"
-                isLabelVisible={false}
-                transitionDuration="2s"
-                animateOnRender={true}
-                height="10px"
-              />
-            </div>
-            <div>
-              <p>
-                Express.js <span>75%</span>
-              </p>
+              <p>Node.js</p>
               <ProgressBar
                 completed={75}
                 bgColor="#ffbd39"
@@ -113,9 +87,7 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>
-                MongoDB <span>80%</span>
-              </p>
+              <p>Express.js</p>
               <ProgressBar
                 completed={80}
                 bgColor="#ffbd39"
@@ -127,9 +99,19 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>
-                Git <span>95%</span>
-              </p>
+              <p>MongoDB</p>
+              <ProgressBar
+                completed={80}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
+              <p>Git</p>
               <ProgressBar
                 completed={95}
                 bgColor="#ffbd39"
@@ -141,11 +123,9 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>
-                Postman <span>76%</span>
-              </p>
+              <p>Postman</p>
               <ProgressBar
-                completed={76}
+                completed={82}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
