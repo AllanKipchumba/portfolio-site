@@ -20,13 +20,23 @@ export const StoryHub = () => {
             Overview
           </h2>
           <p className="text-[#bdc1c6]">
-            StoryHub is a website that allows people to publish and access
-            previously published information. This project has been really
-            beneficial in that it has allowed me to blend my front-end and back-
-            end skills. React, Express, and MongoDB were used to create this
-            project. JWT tokens were utilized for authentication, Data
-            persistence was used to save data locally in the browser, and the
-            Redux framework was used to manage state.
+            StoryHub is a simple website where people can publish and access
+            previously published content. To access the information, you must
+            first log into the system. Users who do not have an account can sign
+            up and log in with their email address and password. Once
+            authenticated, the user can read posts made by other users and
+            publish their own. The user can narrow down the posts they want to
+            read by category. They could also filter the posts so that they can
+            see all of the posts by a particular author in a single display.{" "}
+            <br />
+            This project gave me the opportunity to hone both my front end and
+            backend skills. React, Redux, React persistence, Tailwind, and Sass
+            are the frontend technologies used in the project. The front end is
+            currently in active development on Vercel and Netlify. The project's
+            backend technologies include Node, Express, Mongoose, JWT tokens,
+            and MongoDB Atlas for cloud data storage. The backend is fully
+            active on Heroku servers. I relied heavily on Postman for API
+            testing throughout the project.
           </p>
 
           <div className="btn">
@@ -50,7 +60,8 @@ export const StoryHub = () => {
           <ul>
             <li>React</li>
             <li>redux</li>
-            <li>Node</li>
+            <li>Node.js</li>
+            <li>Express</li>
             <li>MongoDB</li>
           </ul>
         </div>
