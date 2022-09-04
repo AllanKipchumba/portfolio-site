@@ -15,7 +15,7 @@ export const Degree = () => {
       {hide && (
         <p>
           I am a fourth-year Electrical and Electronics Engineering student at
-          Moi University. Problem solving is central to the engineering
+          Moi University. Problem solving is central to the Engineering
           curriculum. The curriculum fundamentally covers a wide range of
           subjects, including mechanics, telecommunications, electronics, power,
           computer engineering, advanced mathematics, and applied physics. This
