@@ -18,10 +18,10 @@ export const Footer = () => {
             <h1>About</h1>
             <p className="text-[#808080]">
               This is Allan Kipchumba's official website. Allan is a dedicated
-              developer who is deeply invested in software engineering and
+              developer who is deeply invested in Software Engineering and
               enjoys all aspects of coding. Coding is fascinating because it
               shapes one's wits, creative thinking, and strategic thinking
-              abilities. You are more attentive to detail in your surroundings.
+              abilities.
             </p>
 
             <div className="flex gap-2 mt-3">
