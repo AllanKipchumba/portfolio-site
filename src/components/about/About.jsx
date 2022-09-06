@@ -67,6 +67,7 @@ export const About = () => {
                 strongest skills is problem solving. I believe in confronting
                 problems head on and devising workable solutions to them.
               </p>
+              <button onClick={() => setReadMore(true)}>Close</button>
             </div>
           )}
         </div>
