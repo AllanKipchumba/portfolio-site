@@ -26,6 +26,8 @@ export const SimonGame = () => {
               of tones and lights that the user must repeat. If the user is
               successful, the sequence lengthens and becomes more complicated.
               When the user fails or the time limit expires, the game is ended.
+              <br />
+              <br />
               Using vanilla JavaScript, I attempted and succeeded in creating
               this functionality. I learnt how to manipulate the DOM and use
               JavaScript methods, which helped me improve my JavaScript

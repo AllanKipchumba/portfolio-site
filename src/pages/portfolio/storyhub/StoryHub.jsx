@@ -29,15 +29,15 @@ export const StoryHub = () => {
               publish their own. The user can narrow down the posts they want to
               read by category. They could also filter the posts so that they
               can see all of the posts by a particular author in a single
-              display. <br />
+              display. <br /> <br />
               This project gave me the opportunity to hone both my front end and
               backend skills. React, Redux, React persistence, Tailwind, and
               Sass are the frontend technologies used in the project. The front
               end is currently in active development on Vercel and Netlify. The
               project's backend technologies include Node, Express, Mongoose,
-              JWT tokens, and MongoDB Atlas for cloud data storage. The backend
-              is fully active on Heroku servers. I relied heavily on Postman for
-              API testing throughout the project.
+              JWT tokens, and MongoDB Atlas for cloud data storage. <br />
+              <br /> The backend is fully active on Heroku servers. I relied
+              heavily on Postman for API testing throughout the project.
             </p>
 
             <div className="btn">
