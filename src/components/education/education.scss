@@ -1,8 +1,9 @@
 .education {
     background-color: #191919;
     //@at-root
-    ul {
-        li {
+    div {
+        position: relative;
+        div {
             padding-left: 15px;
             margin-bottom: 15px;
             background-color: #333333;
@@ -10,7 +11,6 @@
             //@at-root
             h1 {
                 font-size: 26px;
-                font-weight: 900;
                 line-height: 46.8px;
                 color: #ffbd39;
             }
