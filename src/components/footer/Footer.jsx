@@ -23,9 +23,6 @@ export const Footer = () => {
               shapes one's wits, creative thinking, and strategic thinking
               abilities. You are more attentive to detail in your surroundings.
             </p>
-            {/* <h2 className="text-[#fff] text-[17.5px] mt-3">
-              You can find me on
-            </h2> */}
 
             <div className="flex gap-2 mt-3">
               <a href="https://github.com/AllanKipchumba" target="self">
