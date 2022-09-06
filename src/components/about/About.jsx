@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./about.scss";
 import profile from "./assets/profile.jpg";
 import { Fade } from "react-reveal";
+import { Link } from "react-scroll";
 
 export const About = () => {
   const [readMore, setReadMore] = useState("false");
@@ -36,11 +37,11 @@ export const About = () => {
                 This passion has driven me to push myself to consistently learn
                 new skills, making me a better developer by the day.
               </p>
-              <button onClick={() => setReadMore(true)}>Read More</button>
+              <button onClick={() => setReadMore(!readMore)}>Read More</button>
             </div>
           </div>
 
-          {readMore && (
+          {!readMore && (
             <Fade bottom>
               <div className="readmore">
                 <p>
@@ -68,7 +69,19 @@ export const About = () => {
                   skills is problem solving. I believe in confronting problems
                   head on and devising workable solutions to them.
                 </p>
-                <button onClick={() => setReadMore(false)}>Close</button>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-65}
+                  duration={1000}
+                >
+                  <button onClick={() => setReadMore(!readMore)}>
+                    {" "}
+                    close{" "}
+                  </button>
+                </Link>
               </div>
             </Fade>
           )}

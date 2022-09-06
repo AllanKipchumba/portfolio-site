@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Fade } from "react-reveal";
+import { Link } from "react-scroll";
 
 export const Degree = () => {
   const [hide, setHide] = useState(false);
@@ -9,7 +10,7 @@ export const Degree = () => {
       <h1>2018 - present</h1>
       <h2>Bachelor of Engineering</h2>
       <h3>moi university</h3>
-      <button onClick={() => setHide(true)}>Read More</button>
+      <button onClick={() => setHide(!hide)}>Read More</button>
 
       {hide && (
         <Fade top>
@@ -33,7 +34,16 @@ export const Degree = () => {
               Technology, Engineering and Mathematics. Every experience I've had
               in Engineering school is immensely valuable to me.
             </p>
-            <button onClick={() => setHide(false)}>Close</button>
+            <Link
+              activeClass="active"
+              to="education"
+              spy={true}
+              smooth={true}
+              offset={-65}
+              duration={1000}
+            >
+              <button onClick={() => setHide(!hide)}> close </button>
+            </Link>
           </div>
         </Fade>
       )}
