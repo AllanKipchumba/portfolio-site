@@ -1,13 +1,12 @@
 import React from "react";
 import "../main.scss";
-import "./taskM-styles.scss";
 import { useNavigate } from "react-router-dom";
 
 export const TaskmanagerApi = () => {
   const navigate = useNavigate();
   return (
     <div className="project-container bg-[rgb(33,33,36)]">
-      <div className="project-heading">
+      <div className="project-heading-taskmanager">
         <div className="md:ml-16 lg:ml-32">
           <h1>Task manager API</h1>
           <p>Node/ MongoDB</p>

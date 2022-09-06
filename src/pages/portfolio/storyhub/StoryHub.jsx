@@ -1,13 +1,12 @@
 import React from "react";
 import "../main.scss";
-import "./storyH-styles.scss";
 import { useNavigate } from "react-router-dom";
 
 export const StoryHub = () => {
   const navigate = useNavigate();
   return (
     <div className="project-container bg-[#212124]">
-      <div className="project-heading">
+      <div className="project-heading-storyhub">
         <div className="md:ml-16 lg:ml-32">
           <h1>StoryHub</h1>
           <p>React/ Node/ MongoDB</p>

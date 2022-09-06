@@ -1,13 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../main.scss";
-import "./simonG-styles.scss";
 
 export const SimonGame = () => {
   const navigate = useNavigate();
   return (
     <div className="project-container bg-[#212124]">
-      <div className="project-heading">
+      <div className="project-heading-simonGame">
         <div className="md:ml-16 lg:ml-32">
           <h1>Simon-game-clone</h1>
           <p>Javascript</p>
