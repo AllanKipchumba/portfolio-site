@@ -30,7 +30,7 @@ export const About = () => {
                 A Passionate Web Developer
               </p>
 
-              <p>
+              <p className="text-justify">
                 I am very interested in technology and computer software. I have
                 a consistent source of motivation that drives me to stay current
                 with technology and learn everything I can about how it works.
@@ -44,7 +44,7 @@ export const About = () => {
           {!readMore && (
             <Fade bottom>
               <div className="readmore">
-                <p>
+                <p className="text-justify">
                   I am driven and ambitious. I thrive on challenges and
                   constantly set goals for myself so that I have something to
                   strive for. I am not comfortable with settling, and I am

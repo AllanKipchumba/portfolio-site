@@ -13,7 +13,7 @@ export const Degree = () => {
       <button onClick={() => setHide(!hide)}>Read More</button>
 
       {hide && (
-        <Fade top>
+        <Fade left>
           <div className="readmore">
             <h1>Bachelors of Engineering,</h1>
             <h2>Moi University.</h2>
@@ -24,7 +24,7 @@ export const Degree = () => {
               subjects, including mechanics, telecommunications, electronics,
               power, computer engineering, advanced mathematics, and applied
               physics. This instills a great deal of creativity, critical
-              thinking, logical thinking, objectivity, and discipline.
+              thinking, logical thinking, objectivity, and discipline. <br />{" "}
               Furthermore, the curriculum teaches you to think outside the box,
               pay attention to details, and develop a broad range of technical
               thinking skills. When approaching a problem, you are constantly
@@ -42,7 +42,13 @@ export const Degree = () => {
               offset={-65}
               duration={1000}
             >
-              <button onClick={() => setHide(!hide)}> close </button>
+              <button
+                onClick={() => setHide(!hide)}
+                className="md:!mb-[35px] lg:!mb-[100px]"
+              >
+                {" "}
+                close{" "}
+              </button>
             </Link>
           </div>
         </Fade>

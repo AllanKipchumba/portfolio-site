@@ -17,7 +17,7 @@ export const Education = () => {
           <div>
             <Degree />
           </div>
-          <div>
+          <div id="webDev">
             <NodejsBootcamp />
           </div>
           <div>

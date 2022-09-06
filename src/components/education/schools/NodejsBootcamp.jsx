@@ -13,7 +13,7 @@ export const NodejsBootcamp = () => {
       <button onClick={() => setHide(!hide)}>Read More</button>
 
       {hide && (
-        <Fade top>
+        <Fade left>
           <div className="readmore md:left-[-40vw]">
             <h1>node js Bootcamp</h1>
             <h2>Udemy</h2>
@@ -46,7 +46,10 @@ export const NodejsBootcamp = () => {
               offset={-65}
               duration={1000}
             >
-              <button onClick={() => setHide(!hide)}> close </button>
+              <button onClick={() => setHide(!hide)} className="lg:!mb-[50px]">
+                {" "}
+                close{" "}
+              </button>
             </Link>
           </div>
         </Fade>
