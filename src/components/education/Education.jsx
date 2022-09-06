@@ -14,13 +14,13 @@ export const Education = () => {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-[80%] mx-auto pb-[100px]">
-          <div>
+          <div id="degree">
             <Degree />
           </div>
-          <div id="webDev">
+          <div id="node">
             <NodejsBootcamp />
           </div>
-          <div>
+          <div id="webdev">
             <WebDevBootcamp />
           </div>
           <div>

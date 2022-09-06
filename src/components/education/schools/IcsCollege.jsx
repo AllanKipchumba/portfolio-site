@@ -33,7 +33,7 @@ export const Packages = () => {
             </p>
             <Link
               activeClass="active"
-              to="webDev"
+              to="webdev"
               spy={true}
               smooth={true}
               offset={-65}

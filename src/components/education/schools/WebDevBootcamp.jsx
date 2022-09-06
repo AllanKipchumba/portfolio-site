@@ -41,7 +41,7 @@ export const WebDevBootcamp = () => {
             </p>
             <Link
               activeClass="active"
-              to="webDev"
+              to="node"
               spy={true}
               smooth={true}
               offset={-65}

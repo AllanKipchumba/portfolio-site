@@ -43,7 +43,7 @@ export const NodejsBootcamp = () => {
             </p>{" "}
             <Link
               activeClass="active"
-              to="education"
+              to="degree"
               spy={true}
               smooth={true}
               offset={-65}
