@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./education.scss";
 import { Degree } from "./schools/Degree";
 import { Packages } from "./schools/IcsCollege";
@@ -6,11 +6,6 @@ import { NodejsBootcamp } from "./schools/NodejsBootcamp";
 import { WebDevBootcamp } from "./schools/WebDevBootcamp";
 
 export const Education = () => {
-  const [hide, setHide] = useState(false);
-
-  const handleClick = () => {
-    setHide(!hide);
-  };
   return (
     <>
       <div className="education" id="education">

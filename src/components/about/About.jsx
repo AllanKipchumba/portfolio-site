@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./about.scss";
 import profile from "./assets/profile.jpg";
 import { Fade } from "react-reveal";
-import { IoCloseCircleOutline } from "react-icons/io5";
 
 export const About = () => {
   const [readMore, setReadMore] = useState("false");
@@ -37,13 +36,11 @@ export const About = () => {
                 This passion has driven me to push myself to consistently learn
                 new skills, making me a better developer by the day.
               </p>
-              <button onClick={() => setReadMore(!readMore)}>
-                {readMore ? `Read More` : `Close`}
-              </button>
+              <button onClick={() => setReadMore(true)}>Read More</button>
             </div>
           </div>
 
-          {!readMore && (
+          {readMore && (
             <Fade bottom>
               <div className="readmore">
                 <p>
@@ -71,7 +68,7 @@ export const About = () => {
                   skills is problem solving. I believe in confronting problems
                   head on and devising workable solutions to them.
                 </p>
-                <button onClick={() => setReadMore(true)}>Close</button>
+                <button onClick={() => setReadMore(false)}>Close</button>
               </div>
             </Fade>
           )}
