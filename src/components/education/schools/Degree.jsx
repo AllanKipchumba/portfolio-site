@@ -7,7 +7,7 @@ export const Degree = () => {
 
   return (
     <>
-      <h1>2018 - present</h1>
+      <h1>September2018 - present</h1>
       <h2>Bachelor of Engineering</h2>
       <h3>moi university</h3>
       <button onClick={() => setHide(!hide)}>Read More</button>
