@@ -6,7 +6,7 @@ export const WebDevBootcamp = () => {
   const [hide, setHide] = useState(false);
   return (
     <>
-      <h1>March2021 - Jully2021</h1>
+      <h1>March2021 - July2021</h1>
       <h2>Web Development Bootcamp</h2>
       <h3>App Brewery - Dr Angela Yu</h3>
       <button onClick={() => setHide(!hide)}>Read More</button>

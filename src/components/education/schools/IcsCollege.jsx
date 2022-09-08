@@ -6,7 +6,7 @@ export const Packages = () => {
   const [hide, setHide] = useState(false);
   return (
     <>
-      <h1>April2018 - Jully2018</h1>
+      <h1>April2018 - July2018</h1>
       <h2>Fundamentals of Computers</h2>
       <h3>ICS college</h3>
 
