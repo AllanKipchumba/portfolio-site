@@ -36,7 +36,7 @@ export const StoryHub = () => {
               end is currently in active development on Vercel and Netlify. The
               project's backend technologies include Node, Express, Mongoose,
               JWT tokens, and MongoDB Atlas for cloud data storage. <br />
-              <br /> The backend is fully active on Heroku servers. I relied
+              <br /> The backend is fully active on Render servers. I relied
               heavily on Postman for API testing throughout the project.
             </p>
 
