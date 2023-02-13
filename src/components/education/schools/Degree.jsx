@@ -18,23 +18,19 @@ export const Degree = () => {
             <h1>Bachelors of Engineering,</h1>
             <h2>Moi University.</h2>
             <p>
-              I am an Electrical and Electronics Engineering student at Moi
-              University. Problem solving is central to the Engineering
-              curriculum. The curriculum fundamentally covers a wide range of
-              subjects, including mechanics, telecommunications, electronics,
-              power, computer engineering, advanced mathematics, and applied
-              physics. This instills a great deal of creativity, critical
-              thinking, logical thinking, objectivity, and discipline. <br />{" "}
-              <br />
-              Furthermore, the curriculum teaches you to think outside the box,
-              pay attention to details, and develop a broad range of technical
-              thinking skills. When approaching a problem, you are constantly
-              challenged to stretch your thinking and consider all
-              possibilities. <br />
-              <br /> It is an intriguing STEM field that I would recommend to
-              anyone that is immensely interested in Science, Technology,
-              Engineering and Mathematics. Every experience I've had in
-              Engineering school is immensely valuable to me.
+              I am a student of Electrical and Electronics Engineering at Moi
+              University. The curriculum focuses on problem-solving and covers a
+              wide range of subjects, including mechanics, telecommunications,
+              electronics, power, computer engineering, advanced mathematics,
+              and applied physics. This education instills critical and logical
+              thinking, objectivity, creativity, and discipline. Additionally,
+              the curriculum encourages out-of-the-box thinking, attention to
+              detail, and the development of a broad range of technical skills.
+              Studying Engineering challenges me to think beyond the obvious and
+              consider all possibilities when approaching a problem. I highly
+              recommend this exciting STEM field to anyone interested in
+              Science, Technology, Engineering, and Mathematics. My experiences
+              in Engineering school have been incredibly valuable.
             </p>
             <Link
               activeClass="active"
