@@ -3,14 +3,14 @@ import "../main.scss";
 import { useNavigate } from "react-router-dom";
 import { Fade } from "react-reveal";
 
-export const StoryHub = () => {
+export const Eshop = () => {
   const navigate = useNavigate();
   return (
     <div className="project-container bg-[#212124]">
-      <div className="project-heading-storyhub">
+      <div className="project-heading-e-shop">
         <div className="md:ml-16 lg:ml-32">
-          <h1>StoryHub</h1>
-          <p>React/ Node/ MongoDB</p>
+          <h1>e-shop</h1>
+          <p>React/ Firebase / Node</p>
         </div>
       </div>
 
@@ -21,28 +21,33 @@ export const StoryHub = () => {
               Overview
             </h2>
             <p className="text-[#bdc1c6]">
-              StoryHub is a secure platform where users can publish and discover
-              previously shared content. The website requires authentication in
-              order to interact with the information, and new users can easily
-              sign up using their email address and password. With a range of
-              categories available, users can browse through a variety of posts.
-              The website's development utilized React, Redux, Tailwind, and
-              Sass for the front end, while Node, Express, Mongoose, JWT tokens,
-              and MongoDB Atlas were used for the backend. Postman was utilized
-              for API testing, ensuring a smooth user experience. The website is
-              hosted on Vercel, and Render, offering a seamless experience for
-              all users.
+              The e-shop is an e-commerce website where users can easily browse
+              and purchase various items online. The website has a user-friendly
+              interface that allows users to select items from different
+              categories and add them to their shopping cart. The cart feature
+              ensures that users can keep track of their selected items and make
+              any necessary changes before proceeding to checkout.
+              <br /> <br />
+              The website utilizes Firebase to handle data storage, database
+              management, and user authentication. Firebase's robust and secure
+              backend technology ensures that user data is safely stored and
+              easily accessible. With this technology, the website can support a
+              high volume of users, making it scalable for growth.
+              <br /> <br />
+              Overall, the e-shop website concept aims to provide a seamless and
+              enjoyable online shopping experience for users, while also
+              providing secure and reliable technology to support the platform.
             </p>
 
             <div className="btn">
               <button>
-                <a href="https://storyhub-webapp.vercel.app/" target="self">
+                <a href="https://e-shop-client.onrender.com/" target="self">
                   demo
                 </a>
               </button>
               <button>
                 <a
-                  href="https://github.com/AllanKipchumba/StoryHub_ui"
+                  href="https://github.com/AllanKipchumba/e-shop"
                   target="self"
                 >
                   code
@@ -57,10 +62,9 @@ export const StoryHub = () => {
           </h3>
           <ul>
             <li>React</li>
-            <li>redux</li>
+            <li>Redux</li>
+            <li>Firebase</li>
             <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
           </ul>
         </div>
       </div>

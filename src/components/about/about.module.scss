@@ -36,10 +36,12 @@
 
 .shimmer {
   position: absolute;
+  border: 1px solid #999999;
+  border-radius: 10px;
   top: 0;
   left: 0;
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
   background-color: #f6f7f8;
   background-image: linear-gradient(
     to right,

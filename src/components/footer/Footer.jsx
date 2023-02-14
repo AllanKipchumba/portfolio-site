@@ -4,6 +4,7 @@ import {
   AiOutlineTwitter,
   AiOutlineGithub,
   AiOutlineInstagram,
+  AiFillLinkedin,
 } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
@@ -42,6 +43,15 @@ export const Footer = () => {
               >
                 <div className="icon">
                   <AiOutlineInstagram />
+                </div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/allan-kipchumba-0504b51b7/"
+                target="self"
+              >
+                <div className="icon">
+                  <AiFillLinkedin />
                 </div>
               </a>
             </div>

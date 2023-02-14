@@ -21,17 +21,17 @@ export const SimonGame = () => {
               Overview
             </h2>
             <p className="text-[#bdc1c6]">
-              Simon is an electronic game of short-term memory skill invented by
-              Ralph H. Baer and Howard J. Morrison. The device produces a series
-              of tones and lights that the user must repeat. If the user is
-              successful, the sequence lengthens and becomes more complicated.
-              When the user fails or the time limit expires, the game is ended.
-              <br />
-              <br />
-              Using vanilla JavaScript, I attempted and succeeded in creating
-              this functionality. I learnt how to manipulate the DOM and use
-              JavaScript methods, which helped me improve my JavaScript
-              understanding.
+              Experience the nostalgia of the classic Simon game online with
+              this fully functional version. Test your short-term memory skills
+              by repeating increasingly complex sequences of tones and lights.
+              Challenge yourself to beat your highest score, or compete with
+              friends to see who can achieve the highest level. This project
+              allowed me to deepen my knowledge of JavaScript, including DOM
+              manipulation and advanced methods. I used vanilla JavaScript to
+              implement the game, ensuring a fast and responsive user
+              experience. Whether you're reliving childhood memories or
+              experiencing Simon for the first time, this online version is sure
+              to provide hours of entertainment.
             </p>
 
             <div className="btn">

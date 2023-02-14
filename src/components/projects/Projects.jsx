@@ -11,6 +11,12 @@ export const Projects = () => {
         </h1>
         <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[80%] mx-auto pb-[100px]">
           <div>
+            <h1>E-shop</h1>
+            <button>
+              <Link to="/e-shop">read more</Link>
+            </button>
+          </div>
+          <div>
             <h1>StoryHub</h1>
             <button>
               <Link to="/storyhub">read more</Link>

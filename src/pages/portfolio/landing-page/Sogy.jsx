@@ -21,12 +21,13 @@ export const Sogy = () => {
               Overview
             </h2>
             <p className="text-[#bdc1c6]">
-              This was my first GitHub react project. It is a straightforward
-              landing page on a hotel website that provides prospective
-              customers with a tour of the hotel as well as crucial links. This
-              project was crucial to me since I wanted to put my recently
-              acquired react abilities, at the time, to use. This project was
-              entirely built in React.
+              This was my first GitHub React project. It is a sleek landing page
+              for a hotel website that showcases the hotel's amenities and
+              important links for prospective customers. This project was an
+              excellent opportunity to put my newly acquired React skills into
+              practice. By exclusively using React, I was able to further
+              develop my understanding of the technology and improve my overall
+              proficiency.
             </p>
 
             <div className="btn">
