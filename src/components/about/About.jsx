@@ -1,22 +1,28 @@
 import React from "react";
-import "./about.scss";
+import styles from "./about.module.scss";
 import { Link } from "react-scroll";
+import { useState } from "react";
 
 export const About = () => {
+  const [loading, setLoading] = useState(true);
   return (
     <>
-      <div className="about" id="about">
+      <div className={styles.about} id="about">
         <h1 className="foo py-14 capitalize text-[50px] font-[700] leading-[75px] text-center">
           about me
         </h1>
 
         <div className="relative  max-w-[80%] mx-auto pb-[100px]">
           <div className="gap-4 md:gap-10 lg:gap-0 grid grid-cols-1 md:grid-cols-2">
-            <div className="flex justify-center">
+            <div className={`flex justify-center ${styles["image-container"]}`}>
+              {loading && <div className={styles.shimmer}></div>}
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/storyhub-ced7b.appspot.com/o/images_prod%2F1676374364613profile.jpg?alt=media&token=c3e69bdd-0bbb-450d-b59d-1ad69d90af7d"
                 alt="developer"
-                className="w-[50%] md:w-[100%] lg:w-[70%] "
+                className={`w-[50%] md:w-[100%] lg:w-[70%] ${styles.image} ${
+                  loading ? `${styles.loading}` : ``
+                }`}
+                onLoad={() => setLoading(false)}
               />
             </div>
             <div className="lg:mt-[40px]">

@@ -23,7 +23,9 @@ export const Footer = () => {
               creativity, intellect, and strategic thinking abilities.
             </p>
 
-            <div className="flex gap-2 mt-10">
+            <p className="mt-4">Let's connect</p>
+
+            <div className="flex gap-2 mt-4">
               <a href="https://github.com/AllanKipchumba" target="self">
                 <div className="icon">
                   <AiOutlineGithub />
