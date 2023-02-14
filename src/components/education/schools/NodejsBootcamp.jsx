@@ -18,27 +18,21 @@ export const NodejsBootcamp = () => {
             <h1>node js Bootcamp</h1>
             <h2>Udemy</h2>
             <p>
-              I was driven by my interest in backend technologies to take Andrew
-              Mead's Udemy course, and I was impressed by his exceptional
-              teaching abilities. Node.js, a JavaScript runtime built on
-              Chrome's V8 JS Engine, was the focus of the course. This
-              technology allows for the use of JavaScript in web servers.
-              Through the course, I deepened my understanding of REST APIs,
-              non-relational databases, server-side authentication, and Postman
-              API testing. <br /> <br /> The numerous hands-on projects
-              completed during the course gave me practical experience with the
-              latest ES6/ES7 JavaScript, building web servers and APIs with
-              Express, and storing data using Mongoose and MongoDB. I also
-              learned how to consume essential backend APIs to create robust and
-              scalable applications. The use of SocketIO APIs in building
-              real-time web apps and JWT tokens for restricting access to
-              protected routes in applications are among the highlights. <br />{" "}
-              <br />
-              The course covered the deployment of Node.js applications to
-              production environments in detail, providing me with a strong
-              foundation in backend technologies. I am eager to continue
-              learning and using this technology to create innovative solutions
-              to modern problems.
+              I pursued my interest in backend technologies by taking Andrew
+              Mead's Udemy course, where he demonstrated exceptional teaching
+              abilities. The focus of the course was on Node.js, a JavaScript
+              runtime that allows for the use of JavaScript in web servers.
+              Through numerous hands-on projects, I gained practical experience
+              in the latest ES6/ES7 JavaScript, building web servers and APIs
+              with Express, and storing data using Mongoose and MongoDB. I also
+              learned about REST APIs, non-relational databases, server-side
+              authentication, and Postman API testing, as well as SocketIO APIs
+              for building real-time web apps and JWT tokens for restricting
+              access to protected routes in applications. The course covered
+              deploying Node.js applications to production environments,
+              providing me with a strong foundation in backend technologies. I
+              am excited to continue learning and leveraging this technology to
+              create innovative solutions.
             </p>
             <Link
               activeClass="active"

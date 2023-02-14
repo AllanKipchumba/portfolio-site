@@ -25,7 +25,19 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>React.js</p>
+              <p>React</p>
+              <ProgressBar
+                completed={99}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
+              <p>TypeScript</p>
               <ProgressBar
                 completed={95}
                 bgColor="#ffbd39"
@@ -77,7 +89,7 @@ export const Skills = () => {
             <div>
               <p>Node.js</p>
               <ProgressBar
-                completed={75}
+                completed={85}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -89,7 +101,7 @@ export const Skills = () => {
             <div>
               <p>Express.js</p>
               <ProgressBar
-                completed={80}
+                completed={87}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -101,7 +113,7 @@ export const Skills = () => {
             <div>
               <p>MongoDB</p>
               <ProgressBar
-                completed={80}
+                completed={85}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -113,7 +125,7 @@ export const Skills = () => {
             <div>
               <p>Git</p>
               <ProgressBar
-                completed={95}
+                completed={98}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -125,7 +137,19 @@ export const Skills = () => {
             <div>
               <p>Postman</p>
               <ProgressBar
-                completed={82}
+                completed={94}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
+              <p>SEO</p>
+              <ProgressBar
+                completed={90}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}

@@ -17,14 +17,13 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <h1>About</h1>
             <p className="text-[#808080]">
-              This is Allan Kipchumba's official website. Allan is a dedicated
-              developer who is deeply invested in Software Engineering and
-              enjoys all aspects of coding. Coding is fascinating because it
-              shapes one's wits, creative thinking, and strategic thinking
-              abilities.
+              Welcome to Allan Kipchumba's official website. As a dedicated
+              software engineer, I am passionate about all aspects of coding. I
+              find coding to be a fascinating field that sharpens one's
+              creativity, intellect, and strategic thinking abilities.
             </p>
 
-            <div className="flex gap-2 mt-3">
+            <div className="flex gap-2 mt-10">
               <a href="https://github.com/AllanKipchumba" target="self">
                 <div className="icon">
                   <AiOutlineGithub />

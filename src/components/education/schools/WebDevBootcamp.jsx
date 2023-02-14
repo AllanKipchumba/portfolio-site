@@ -17,27 +17,16 @@ export const WebDevBootcamp = () => {
             <h1>web development bootcamp</h1>
             <h2>App Brewery</h2>
             <p>
-              My desire to learn web technologies led me to Dr. Angela Yu's
-              5-month Coding Boot camp at App Brewery. I am proud of the boot
-              camp because it taught me the fundamentals of web development from
-              start to finish; the design phase, color theory, HTML5, CSS3,
-              JavaScript, Git and GitHub, command line interface, Node.js,
-              Express, MongoDB, and React.js were all taught in a project-based
-              approach. This increased my stamina for web design and
-              development. <br />
-              <br />
-              Debugging techniques, which manifest to be a valuable asset to any
-              developer, were thoroughly covered here. Professional developer
-              best practices were thoroughly taught because software development
-              ethics and professionalism are just as important as the software
-              itself. <br />
-              <br />
-              The boot camp also challenged us to constantly learn new skills in
-              order to maintain our value in the industry because software
-              rapidly evolves and the only way to maintain our relevance and
-              keep up our skills is to keep learning. This has greatly motivated
-              me to consistently learn new skills whenever the opportunity
-              arises.
+              Dr. Angela Yu's 5-month Coding Bootcamp at App Brewery taught me
+              the fundamentals of web development, from design to deployment.
+              The project-based curriculum covered HTML5, CSS3, JavaScript, Git
+              and GitHub, command line interface, Node.js, Express, MongoDB, and
+              React.js, improving my stamina for web design and development. I
+              also learned invaluable debugging techniques and best practices
+              for ethical and professional software development. The bootcamp
+              instilled in me the importance of continuous learning to remain
+              relevant in a rapidly evolving industry, motivating me to seek out
+              new skills and opportunities.
             </p>
             <Link
               activeClass="active"
