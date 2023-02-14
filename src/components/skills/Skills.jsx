@@ -49,6 +49,18 @@ export const Skills = () => {
               />
             </div>
             <div>
+              <p>Firebase</p>
+              <ProgressBar
+                completed={95}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
               <p>Redux</p>
               <ProgressBar
                 completed={95}
