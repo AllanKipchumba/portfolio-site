@@ -2,6 +2,7 @@ import React from "react";
 import "./skills.scss";
 import ProgressBar from "@ramonak/react-progress-bar";
 
+//skills component
 export const Skills = () => {
   return (
     <>
