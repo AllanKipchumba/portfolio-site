@@ -15,22 +15,21 @@ export const Degree = () => {
       {hide && (
         <Fade left>
           <div className="readmore">
-            <h1>Bachelors of Engineering,</h1>
+            <h1>BE in Electrical and Electronics Engineering,</h1>
             <h2>Moi University.</h2>
             <p>
-              I am a student of Electrical and Electronics Engineering at Moi
-              University. The curriculum focuses on problem-solving and covers a
-              wide range of subjects, including mechanics, telecommunications,
+              Studying Electrical and Electronics Engineering at Moi University,
+              I've gained a strong problem-solving foundation and knowledge in
+              diverse subjects such as mechanics, telecommunications,
               electronics, power, computer engineering, advanced mathematics,
-              and applied physics. This education instills critical and logical
-              thinking, objectivity, creativity, and discipline. Additionally,
-              the curriculum encourages out-of-the-box thinking, attention to
-              detail, and the development of a broad range of technical skills.
-              Studying Engineering challenges me to think beyond the obvious and
-              consider all possibilities when approaching a problem. I highly
-              recommend this exciting STEM field to anyone interested in
-              Science, Technology, Engineering, and Mathematics. My experiences
-              in Engineering school have been incredibly valuable.
+              and applied physics. This program has fostered critical thinking,
+              objectivity, creativity, and discipline while encouraging
+              out-of-the-box thinking, attention to detail, and broad technical
+              skill development. Engineering school has been invaluable,
+              challenging me to think beyond the obvious and consider all
+              possibilities. I highly recommend this exciting STEM field to
+              anyone interested in Science, Technology, Engineering, and
+              Mathematics.
             </p>
             <Link
               activeClass="active"

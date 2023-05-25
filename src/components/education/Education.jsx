@@ -26,23 +26,6 @@ export const Education = () => {
           <div>
             <Packages />
           </div>
-          {/* <ul>
-            <li>
-              <Degree />
-            </li>
-
-            <li>
-              <NodejsBootcamp />
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <WebDevBootcamp />
-            </li>
-            <li>
-              <Packages />
-            </li>
-          </ul> */}
         </div>
       </div>
     </>

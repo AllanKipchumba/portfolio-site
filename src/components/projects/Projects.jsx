@@ -9,7 +9,13 @@ export const Projects = () => {
         <h1 className="foo py-10 capitalize text-[50px] font-[700] leading-[75px] text-center">
           projects
         </h1>
-        <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[80%] mx-auto pb-[100px]">
+        <div className="container grid grid-cols-2 lg:grid-cols-3 gap-6 max-w-[80%] mx-auto pb-[100px]">
+          <div>
+            <h1>Rylan Laundry DMS</h1>
+            <button>
+              <Link to="/rylan_laundry_DMS">read more</Link>
+            </button>
+          </div>
           <div>
             <h1>E-shop</h1>
             <button>

@@ -7,6 +7,7 @@ import {
   Sogy,
   Eshop,
   StoryHub,
+  Rylan,
 } from "./pages/index";
 
 export const App = () => {
@@ -19,6 +20,7 @@ export const App = () => {
         <Route path="taskmanagerAPI" element={<TaskmanagerApi />} />
         <Route path="simon-game-clone" element={<SimonGame />} />
         <Route path="landing-page" element={<Sogy />} />
+        <Route path="rylan_laundry_DMS" element={<Rylan />} />
       </Routes>
     </>
   );
