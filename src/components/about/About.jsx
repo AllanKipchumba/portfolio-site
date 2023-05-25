@@ -34,13 +34,14 @@ export const About = () => {
               </p>
 
               <p>
-                Strongly Passionate and driven developer with a constant desire
-                to learn and improve. Highly organized and results-oriented, I
-                take pride in my strong communication and problem-solving
-                skills. I enjoy collaborating with others and believe in the
-                power of teamwork to produce exceptional results. Skilled at
-                making connections with people, I excel at building strong
-                client relationships.
+                I'm a driven full stack developer with a passion for technology
+                and a constant desire to learn. I excel at solving complex
+                problems and effectively communicating with teams. Building
+                strong client relationships is a natural strength of mine, and I
+                thrive in dynamic environments. I'm committed to continuous
+                learning and staying up-to-date with industry trends. With a
+                track record of delivering high-quality results, I'm confident
+                in my ability to drive success in any development project.
               </p>
               <Link
                 activeClass="active"
