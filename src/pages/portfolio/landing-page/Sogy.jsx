@@ -2,9 +2,14 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../main.scss";
 import { Fade } from "react-reveal";
+import { useEffect } from "react";
 
 export const Sogy = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="project-container bg-[#212124]">
       <div className="project-heading-sogy">

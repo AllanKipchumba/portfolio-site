@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../main.scss";
 import styles from "./styles.module.scss";
 import { useNavigate } from "react-router-dom";
@@ -6,11 +6,15 @@ import { Fade } from "react-reveal";
 
 export const Rylan = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="project-container bg-[#212124]">
       <div className="project-heading-rylan">
         <div className="md:ml-16 lg:ml-32">
-          <h1>e-shop</h1>
+          <h1>Rylan Laundry data management system</h1>
           <p>React/ TypeScript/ Node/ MongoDB </p>
         </div>
       </div>
@@ -22,13 +26,12 @@ export const Rylan = () => {
               Overview
             </h2>
             <p className="text-[#bdc1c6]">
-              The Rylan Laundry Services Data Management System User Interface
-              is a web application designed to streamline and simplify the
-              management of transaction data for a laundry business called
-              Rylan. This user interface, developed using the latest
-              technologies, provides various components that enable the
-              capturing and display of transaction data in a user-friendly
-              manner.
+              The Rylan Laundry Services Data Management System is a web
+              application designed to streamline and simplify the management of
+              transaction data for a laundry business called Rylan. The user
+              interface, developed using the latest technologies, provides
+              various components that enable the capturing and display of
+              transaction data in a user-friendly manner.
               <br />
               <div className={styles.features}>
                 Key Features:
@@ -64,12 +67,12 @@ export const Rylan = () => {
                 </li>
               </div>
               <br /> <br />
-              The Rylan Laundry Services Data Management System API serves as
-              the backbone of the data management system for Rylan Laundry
-              Services. This API, developed using robust technologies, enables
-              the handling of sales, expenditure, and credits records on a
-              monthly basis. It also includes authentication functionality to
-              ensure secure access to the system.
+              The API serves as the backbone of the data management system for
+              Rylan Laundry Services. This API, developed using robust
+              technologies, enables the handling of sales, expenditure, and
+              credits records on a monthly basis. It also includes
+              authentication functionality to ensure secure access to the
+              system.
               <br />
               <div className={styles.features}>
                 Key Features:

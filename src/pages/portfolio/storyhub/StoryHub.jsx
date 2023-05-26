@@ -2,9 +2,14 @@ import React from "react";
 import "../main.scss";
 import { useNavigate } from "react-router-dom";
 import { Fade } from "react-reveal";
+import { useEffect } from "react";
 
 export const StoryHub = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="project-container bg-[#212124]">
       <div className="project-heading-storyhub">
