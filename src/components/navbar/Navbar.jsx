@@ -5,6 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
 import { Link, animateScroll as scroll } from "react-scroll";
 
+
 export const Navbar = () => {
   const [isMobile, setIsmobile] = useState(false);
   const [colorChange, setColorchange] = useState(false);

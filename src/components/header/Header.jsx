@@ -24,8 +24,8 @@ export const Header = () => {
               "a Passionate developer,",
               "and an aggressive learner",
             ]}
-            typeSpeed={150}
-            backSpeed={100}
+            typeSpeed={100}
+            backSpeed={50}
             loop
             showCursor={true}
             className="text-xl sm:text-4xl md:text-4xl font-bold uppercase text-[#ffbd39]"
