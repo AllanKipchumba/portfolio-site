@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../main.scss";
-import styles from "./styles.module.scss";
+// import styles from "./styles.module.scss";
 import { useNavigate } from "react-router-dom";
 import { Fade } from "react-reveal";
 
