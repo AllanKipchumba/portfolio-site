@@ -25,22 +25,26 @@ export const Eshop = () => {
               Overview
             </h2>
             <p className="text-[#bdc1c6]">
-              The e-shop is an e-commerce website where users can easily browse
-              and purchase various items online. The website has a user-friendly
-              interface that allows users to select items from different
-              categories and add them to their shopping cart. The cart feature
-              ensures that users can keep track of their selected items and make
-              any necessary changes before proceeding to checkout.
+              E-shop revolutionizes the world of online shopping, providing
+              users with a seamless and enjoyable e-commerce experience. Our
+              user-friendly website allows customers to effortlessly browse and
+              purchase a wide range of items from various categories. With just
+              a few clicks, users can add their desired products to their
+              shopping cart, enabling easy tracking and customization before
+              proceeding to checkout.
               <br /> <br />
-              The website utilizes Firebase to handle data storage, database
-              management, and user authentication. Firebase's robust and secure
-              backend technology ensures that user data is safely stored and
-              easily accessible. With this technology, the website can support a
-              high volume of users, making it scalable for growth.
+              At the core of our platform lies Firebase, a powerful technology
+              that handles data storage, database management, and user
+              authentication. By leveraging Firebase's robust and secure backend
+              capabilities, we ensure that user data is stored safely and
+              readily accessible. This scalable solution allows us to
+              accommodate a high volume of users and support future growth.
               <br /> <br />
-              Overall, the e-shop website concept aims to provide a seamless and
-              enjoyable online shopping experience for users, while also
-              providing secure and reliable technology to support the platform.
+              Our ultimate goal is to deliver a secure and reliable platform,
+              combining an intuitive interface with cutting-edge technology.
+              E-shop aims to redefine the online shopping experience, providing
+              customers with convenience, choice, and peace of mind. Join us in
+              exploring the possibilities of seamless e-commerce at E-shop.
             </p>
 
             <div className="btn">

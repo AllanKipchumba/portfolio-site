@@ -26,85 +26,31 @@ export const Rylan = () => {
               Overview
             </h2>
             <p className="text-[#bdc1c6]">
+              The inspiration behind the Rylan Laundry Services Data Management
+              System stems from my personal experiences. This project emerged
+              during my time on campus when I ran a laundry business alongside
+              my studies to supplement my financial streams. While managing the
+              business, I encountered a significant challenge - the need to
+              efficiently track crucial data such as cash flows and a record of
+              the clients served. It became apparent that a robust solution was
+              required to make informed business decisions, ensure seamless
+              service delivery, and prevent losses. This inspired me to embark
+              on developing a software solution that would address this pressing
+              issue.
+              <br /> <br />
               The Rylan Laundry Services Data Management System is a web
               application designed to streamline and simplify the management of
-              transaction data for a laundry business called Rylan. The user
-              interface, developed using the latest technologies, provides
-              various components that enable the capturing and display of
-              transaction data in a user-friendly manner.
-              <br />
-              <div className={styles.features}>
-                Key Features:
-                <li>
-                  <li>
-                    Dashboard: The dashboard component offers a comprehensive
-                    overview of transaction data, allowing business owners and
-                    managers to quickly assess the performance of their laundry
-                    services. It presents key metrics and visualizations for
-                    easy analysis.
-                  </li>
-                  <li>
-                    Sales, Expenditure, and Credits Components: These components
-                    facilitate the input and display of sales, expenditure, and
-                    credits records. They provide intuitive forms for entering
-                    transaction details, as well as organized views to review
-                    and track historical data.
-                  </li>
-                  <li>
-                    Report Generation: The report component empowers users to
-                    generate detailed reports based on the transaction data.
-                    These reports offer valuable insights into the financial
-                    aspects of the laundry business, aiding in decision-making
-                    and performance evaluation.
-                  </li>
-                  <li>
-                    Transaction Input Form: The transaction input form component
-                    ensures a seamless and efficient process for entering new
-                    transaction data. Users can easily fill in the required
-                    information and submit it to the system, ensuring accurate
-                    and up-to-date records.
-                  </li>
-                </li>
-              </div>
-              <br /> <br />
-              The API serves as the backbone of the data management system for
-              Rylan Laundry Services. This API, developed using robust
-              technologies, enables the handling of sales, expenditure, and
-              credits records on a monthly basis. It also includes
-              authentication functionality to ensure secure access to the
-              system.
-              <br />
-              <div className={styles.features}>
-                Key Features:
-                <li>
-                  <li>
-                    CRUD Operations: The API supports Create, Retrieve, Update,
-                    and Delete operations for sales, expenditure, and credits
-                    records. This functionality allows authorized users to
-                    manage and manipulate transaction data efficiently.
-                  </li>
-                  <li>
-                    Authentication System: To maintain data security, the API
-                    incorporates an authentication system. Users must
-                    authenticate themselves using secure credentials to access
-                    the API's functionalities. This ensures that only authorized
-                    individuals can interact with the system.
-                  </li>
-                  <li>
-                    Report Generation: Leveraging the inputted records, the API
-                    offers the capability to generate comprehensive reports.
-                    These reports provide valuable insights into the financial
-                    performance of Rylan Laundry Services, aiding in
-                    decision-making and strategic planning.
-                  </li>
-                </li>
-              </div>
-              <br /> <br />
-              The Rylan Laundry Services Data Management System User Interface
-              and API work in tandem to provide a seamless experience for
-              managing transaction data in the laundry business. Together, they
-              empower business owners and managers to make informed decisions
-              and optimize their operations efficiently.
+              transaction data for my laundry business. Using the latest
+              technologies, this user-friendly application provides a
+              comprehensive overview of transaction data through a visually
+              appealing dashboard. It enabled eased access to assess the
+              performance of the business, make informed decisions, and ensure
+              smooth service delivery. The user interface boasts of a Dashboard,
+              sales, expenditure and credits components, report generation and
+              transaction input form that work to facilitate data entry and
+              visualisation. The API was carefully designed to ensure secure
+              access and to provides essential functionality for managing and
+              manipulating transaction data
             </p>
 
             <div className="btn">
