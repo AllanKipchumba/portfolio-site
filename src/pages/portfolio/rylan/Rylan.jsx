@@ -64,7 +64,7 @@ export const Rylan = () => {
               </button>
               <button>
                 <a
-                  href="https://github.com/AllanKipchumba?tab=repositories"
+                  href="https://github.com/AllanKipchumba/Rylan_Laundry_Services_user_interface"
                   target="self"
                 >
                   code
