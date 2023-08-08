@@ -34,14 +34,16 @@ export const About = () => {
               </p>
 
               <p>
-                I'm a driven full stack developer with a passion for technology
-                and a constant desire to learn. I excel at solving complex
-                problems and effectively communicating with teams. Building
-                strong client relationships is a natural strength of mine, and I
-                thrive in dynamic environments. I'm committed to continuous
-                learning and staying up-to-date with industry trends. With a
-                track record of delivering high-quality results, I'm confident
-                in my ability to drive success in any development project.
+                I am an agile full-stack developer with a strong unwavered
+                passion for technology and a constant desire to learn. I excel
+                at solving complex problems, proficient in both collaborative
+                teamwork and autonomous troubleshooting. I am adept at
+                navigating challenges with an innovative approach, prioritizing
+                contextual understanding. I am skilled in effective
+                communication, encompassing written and verbal aptitude. I am
+                always curious to acquire knowledge in emerging technologies and
+                leverage my experience to foster innovation and deliver high
+                quality products.
               </p>
               <Link
                 activeClass="active"

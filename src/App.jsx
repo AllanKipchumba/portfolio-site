@@ -8,6 +8,7 @@ import {
   Eshop,
   StoryHub,
   Rylan,
+  TickettingApp,
 } from "./pages/index";
 
 export const App = () => {
@@ -21,6 +22,7 @@ export const App = () => {
         <Route path="simon-game-clone" element={<SimonGame />} />
         <Route path="landing-page" element={<Sogy />} />
         <Route path="rylan_laundry_DMS" element={<Rylan />} />
+        <Route path="ticketing-app" element={<TickettingApp />} />
       </Routes>
     </>
   );

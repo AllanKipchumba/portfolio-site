@@ -19,10 +19,10 @@ export const Header = () => {
           {" "}
           <Typed
             strings={[
-              "I'm allan kipchumba",
-              "a student Engineer,",
-              "a Passionate developer,",
-              "and an aggressive learner",
+              "I'm allan kipchumba.",
+              "A student Engineer,",
+              "an agile developer,",
+              "and an aggressive learner.",
             ]}
             typeSpeed={100}
             backSpeed={50}

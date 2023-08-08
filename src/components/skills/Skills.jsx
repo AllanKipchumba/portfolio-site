@@ -25,6 +25,20 @@ export const Skills = () => {
                 height="10px"
               />
             </div>
+
+            <div>
+              <p>TypeScript</p>
+              <ProgressBar
+                completed={95}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+
             <div>
               <p>React</p>
               <ProgressBar
@@ -38,7 +52,7 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>TypeScript</p>
+              <p>Next</p>
               <ProgressBar
                 completed={95}
                 bgColor="#ffbd39"
@@ -49,6 +63,7 @@ export const Skills = () => {
                 height="10px"
               />
             </div>
+
             <div>
               <p>Firebase</p>
               <ProgressBar
@@ -97,12 +112,25 @@ export const Skills = () => {
                 height="10px"
               />
             </div>
+
+            <div>
+              <p>SEO</p>
+              <ProgressBar
+                completed={95}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
           </div>
           <div>
             <div>
               <p>Node.js</p>
               <ProgressBar
-                completed={85}
+                completed={90}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -114,7 +142,7 @@ export const Skills = () => {
             <div>
               <p>Express.js</p>
               <ProgressBar
-                completed={87}
+                completed={99}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -126,7 +154,7 @@ export const Skills = () => {
             <div>
               <p>MongoDB</p>
               <ProgressBar
-                completed={85}
+                completed={95}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -135,6 +163,7 @@ export const Skills = () => {
                 height="10px"
               />
             </div>
+
             <div>
               <p>Git</p>
               <ProgressBar
@@ -160,9 +189,45 @@ export const Skills = () => {
               />
             </div>
             <div>
-              <p>SEO</p>
+              <p>Microservices</p>
               <ProgressBar
-                completed={90}
+                completed={94}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
+              <p>Docker</p>
+              <ProgressBar
+                completed={80}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
+              <p>Kubernetes</p>
+              <ProgressBar
+                completed={80}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
+              <p>Nats</p>
+              <ProgressBar
+                completed={95}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}

@@ -18,10 +18,10 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <h1>About</h1>
             <p className="text-[#808080]">
-              Welcome to Allan Kipchumba's official website. As a dedicated
-              software engineer, I am passionate about all aspects of coding. I
-              find coding to be a fascinating field that sharpens one's
-              creativity, intellect, and strategic thinking abilities.
+              Welcome to Allan Kipchumba's official website. As an agile
+              engineer, I'm deeply passionate about every facet of coding.
+              Coding is a captivating realm that hones creativity, intellect,
+              and strategic thinking.
             </p>
 
             <p className="mt-4">Let's connect</p>

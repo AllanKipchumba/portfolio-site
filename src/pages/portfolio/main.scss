@@ -32,6 +32,10 @@
 .project-container {
   min-height: 100vh;
   //@at-root
+  .project-heading-ticketting {
+    background-image: url(./assets/Architecture.png);
+    @include customStyles;
+  }
   .project-heading-rylan {
     background-image: url(./assets/rylan.PNG);
     @include customStyles;
