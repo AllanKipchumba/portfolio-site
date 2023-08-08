@@ -17,7 +17,7 @@ export const Projects = () => {
             </button>
           </div>
           <div>
-            <h1>Rylan Laundry DMS</h1>
+            <h1>Rylan Laundry ERP</h1>
             <button>
               <Link to="/rylan_laundry_DMS">read more</Link>
             </button>
