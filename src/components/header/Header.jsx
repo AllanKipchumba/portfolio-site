@@ -16,7 +16,6 @@ export const Header = () => {
         </h1>
 
         <p className="mt-8 text-center">
-          {" "}
           <Typed
             strings={[
               "I'm allan kipchumba.",

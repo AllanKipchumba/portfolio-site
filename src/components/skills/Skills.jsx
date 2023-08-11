@@ -176,18 +176,7 @@ export const Skills = () => {
                 height="10px"
               />
             </div>
-            <div>
-              <p>Postman</p>
-              <ProgressBar
-                completed={94}
-                bgColor="#ffbd39"
-                baseBgColor="#1a1a1a"
-                isLabelVisible={false}
-                transitionDuration="2s"
-                animateOnRender={true}
-                height="10px"
-              />
-            </div>
+
             <div>
               <p>Microservices</p>
               <ProgressBar
@@ -203,7 +192,7 @@ export const Skills = () => {
             <div>
               <p>Docker</p>
               <ProgressBar
-                completed={80}
+                completed={85}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -215,7 +204,7 @@ export const Skills = () => {
             <div>
               <p>Kubernetes</p>
               <ProgressBar
-                completed={80}
+                completed={85}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}
@@ -228,6 +217,18 @@ export const Skills = () => {
               <p>Nats</p>
               <ProgressBar
                 completed={95}
+                bgColor="#ffbd39"
+                baseBgColor="#1a1a1a"
+                isLabelVisible={false}
+                transitionDuration="2s"
+                animateOnRender={true}
+                height="10px"
+              />
+            </div>
+            <div>
+              <p>CI/CD Github Workflow</p>
+              <ProgressBar
+                completed={90}
                 bgColor="#ffbd39"
                 baseBgColor="#1a1a1a"
                 isLabelVisible={false}

@@ -27,23 +27,23 @@ export const About = () => {
             </div>
             <div className="lg:mt-[40px]">
               <h1 className="text-3xl font-bold mb-2">
-                I am <span className="text-[#ffbd39]">Allan</span>
+                I am <span className="text-[#ffbd39]">Allan,</span>
               </h1>
               <p className="uppercase tracking-[5px] mb-5">
-                A Passionate Developer
+                A Passionate Developer.
               </p>
 
               <p>
-                I am an agile full-stack developer with a strong unwavered
+                I am an agile full-stack developer with a strong and unwavering
                 passion for technology and a constant desire to learn. I excel
                 at solving complex problems, proficient in both collaborative
                 teamwork and autonomous troubleshooting. I am adept at
                 navigating challenges with an innovative approach, prioritizing
-                contextual understanding. I am skilled in effective
-                communication, encompassing written and verbal aptitude. I am
-                always curious to acquire knowledge in emerging technologies and
-                leverage my experience to foster innovation and deliver high
-                quality products.
+                contextual understanding. I have effective communication skills,
+                encompassing written and verbal aptitude. I am always curious to
+                acquire knowledge in emerging technologies and leverage my
+                experience to foster innovation and deliver high-quality
+                products.
               </p>
               <Link
                 activeClass="active"
