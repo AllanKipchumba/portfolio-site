@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import "../main.scss";
+import React, { useEffect } from 'react';
+import '../main.scss';
 // import styles from "./styles.module.scss";
-import { useNavigate } from "react-router-dom";
-import { Fade } from "react-reveal";
+import { useNavigate } from 'react-router-dom';
+import { Fade } from 'react-reveal';
 
 export const Rylan = () => {
   const navigate = useNavigate();
@@ -11,21 +11,21 @@ export const Rylan = () => {
   }, []);
 
   return (
-    <div className="project-container bg-[#212124]">
-      <div className="project-heading-rylan">
-        <div className="md:ml-16 lg:ml-32">
+    <div className='project-container bg-[#212124]'>
+      <div className='project-heading-rylan'>
+        <div className='ml-8 md:ml-16 lg:ml-32'>
           <h1>Rylan Laundry data management system</h1>
           <p>React/ TypeScript/ Node/ MongoDB </p>
         </div>
       </div>
 
-      <div className="pt-12 max-w-[80%] mx-auto grid grid-cols-1 md:grid-cols-5 gap-1 md:gap-8">
+      <div className='pt-12 max-w-[80%] mx-auto grid grid-cols-1 md:grid-cols-5 gap-1 md:gap-8'>
         <Fade top>
-          <div className="md:col-span-4 bg-[#39393F] rounded-3xl p-5 mb-3">
-            <h2 className="capitalize text-[36px] text-[#ffbd39] font-[700] tracking-[0.4px] leading-[75px]">
+          <div className='md:col-span-4 bg-[#39393F] rounded-3xl p-5 mb-3'>
+            <h2 className='capitalize text-[36px] text-[#ffbd39] font-[700] tracking-[0.4px] leading-[75px]'>
               Overview
             </h2>
-            <p className="text-[#bdc1c6]">
+            <p className='text-[#bdc1c6]'>
               The inspiration behind the Rylan Laundry Services Data Management
               System stems from my personal experiences. This project emerged
               during my time on campus when I ran a laundry business alongside
@@ -53,19 +53,19 @@ export const Rylan = () => {
               manipulating transaction data
             </p>
 
-            <div className="btn">
+            <div className='btn'>
               <button>
                 <a
-                  href="https://dashboard-rylan-laundry-dms.vercel.app/"
-                  target="self"
+                  href='https://dashboard-rylan-laundry-dms.vercel.app/'
+                  target='self'
                 >
                   demo
                 </a>
               </button>
               <button>
                 <a
-                  href="https://github.com/AllanKipchumba/Rylan_Laundry_Services_user_interface"
-                  target="self"
+                  href='https://github.com/AllanKipchumba/Rylan_Laundry_Services_user_interface'
+                  target='self'
                 >
                   code
                 </a>
@@ -73,8 +73,8 @@ export const Rylan = () => {
             </div>
           </div>
         </Fade>
-        <div className="mb-4">
-          <h3 className="text-[25px] leading-[75px]  text-[#ffbd39] ">
+        <div className='mb-4'>
+          <h3 className='text-[25px] leading-[75px]  text-[#ffbd39] '>
             Technologies
           </h3>
           <ul>
@@ -86,8 +86,8 @@ export const Rylan = () => {
           </ul>
         </div>
       </div>
-      <div className="max-w-[80%] mx-auto">
-        <button onClick={() => navigate(-1)} className="back-btn">
+      <div className='max-w-[80%] mx-auto'>
+        <button onClick={() => navigate(-1)} className='back-btn'>
           back
         </button>
       </div>

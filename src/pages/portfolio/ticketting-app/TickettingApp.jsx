@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import "../main.scss";
+import React, { useEffect } from 'react';
+import '../main.scss';
 // import styles from "./styles.module.scss";
-import { useNavigate } from "react-router-dom";
-import { Fade } from "react-reveal";
+import { useNavigate } from 'react-router-dom';
+import { Fade } from 'react-reveal';
 
 export const TickettingApp = () => {
   const navigate = useNavigate();
@@ -11,21 +11,21 @@ export const TickettingApp = () => {
   }, []);
 
   return (
-    <div className="project-container bg-[#212124]">
-      <div className="project-heading-ticketting ">
-        <div className="md:ml-16 lg:ml-32">
+    <div className='project-container bg-[#212124]'>
+      <div className='project-heading-ticketting '>
+        <div className='ml-8 md:ml-16 lg:ml-32'>
           <h1>Distributed Ticketing App</h1>
           <p>TypeScript/ Node/ MongoDB/ Docker/ Kubernetes/ Nats </p>
         </div>
       </div>
 
-      <div className="pt-12 max-w-[80%] mx-auto grid grid-cols-1 md:grid-cols-5 gap-1 md:gap-8">
+      <div className='pt-12 max-w-[80%] mx-auto grid grid-cols-1 md:grid-cols-5 gap-1 md:gap-8'>
         <Fade top>
-          <div className="md:col-span-4 bg-[#39393F] rounded-3xl p-5 mb-3">
-            <h2 className="capitalize text-[36px] text-[#ffbd39] font-[700] tracking-[0.4px] leading-[75px]">
+          <div className='md:col-span-4 bg-[#39393F] rounded-3xl p-5 mb-3'>
+            <h2 className='capitalize text-[36px] text-[#ffbd39] font-[700] tracking-[0.4px] leading-[75px]'>
               Overview
             </h2>
-            <p className="text-[#bdc1c6]">
+            <p className='text-[#bdc1c6]'>
               Ticketing App is a platform that facilitates seamless ticket
               buying and selling experiences for registered users. This dynamic
               and scalable application employs a microservices architecture and
@@ -74,7 +74,7 @@ export const TickettingApp = () => {
               and ensures data integrity.
             </p>
 
-            <div className="btn">
+            <div className='btn'>
               {/* <button>
                 <a
                   href="https://dashboard-rylan-laundry-dms.vercel.app/"
@@ -85,8 +85,8 @@ export const TickettingApp = () => {
               </button> */}
               <button>
                 <a
-                  href="https://github.com/AllanKipchumba/ticketingApp"
-                  target="self"
+                  href='https://github.com/AllanKipchumba/ticketingApp'
+                  target='self'
                 >
                   code
                 </a>
@@ -94,8 +94,8 @@ export const TickettingApp = () => {
             </div>
           </div>
         </Fade>
-        <div className="mb-4">
-          <h3 className="text-[25px] leading-[75px]  text-[#ffbd39] ">
+        <div className='mb-4'>
+          <h3 className='text-[25px] leading-[75px]  text-[#ffbd39] '>
             Technologies
           </h3>
           <ul>
@@ -109,8 +109,8 @@ export const TickettingApp = () => {
           </ul>
         </div>
       </div>
-      <div className="max-w-[80%] mx-auto">
-        <button onClick={() => navigate(-1)} className="back-btn">
+      <div className='max-w-[80%] mx-auto'>
+        <button onClick={() => navigate(-1)} className='back-btn'>
           back
         </button>
       </div>
