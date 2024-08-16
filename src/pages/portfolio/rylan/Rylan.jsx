@@ -62,14 +62,14 @@ export const Rylan = () => {
                   demo
                 </a>
               </button>
-              <button>
+              {/* <button>
                 <a
                   href='https://github.com/AllanKipchumba/Rylan_Laundry_Services_user_interface'
                   target='self'
                 >
                   code
                 </a>
-              </button>
+              </button> */}
             </div>
           </div>
         </Fade>

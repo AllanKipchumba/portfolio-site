@@ -53,14 +53,14 @@ export const Eshop = () => {
                   demo
                 </a>
               </button>
-              <button>
+              {/* <button>
                 <a
                   href='https://github.com/AllanKipchumba/e-shop'
                   target='self'
                 >
                   code
                 </a>
-              </button>
+              </button> */}
             </div>
           </div>
         </Fade>

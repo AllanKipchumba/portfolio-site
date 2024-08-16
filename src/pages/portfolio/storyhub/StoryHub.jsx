@@ -45,14 +45,14 @@ export const StoryHub = () => {
                   demo
                 </a>
               </button>
-              <button>
+              {/* <button>
                 <a
                   href='https://github.com/AllanKipchumba/StoryHub_ui'
                   target='self'
                 >
                   code
                 </a>
-              </button>
+              </button> */}
             </div>
           </div>
         </Fade>
