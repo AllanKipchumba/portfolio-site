@@ -32,6 +32,21 @@
 .project-container {
   min-height: 100vh;
   //@at-root
+  .project-heading-mziziapp {
+    background-image: url(./assets/mzizi.png);
+    @include customStyles;
+  }
+
+  .project-heading-mwalimuai {
+    background-image: url(./assets/mwalimu_ai.png);
+    @include customStyles;
+  }
+
+  .project-heading-agraai {
+    background-image: url(./assets/mzizi.png);
+    @include customStyles;
+  }
+
   .project-heading-ticketting {
     background-image: url(./assets/Architecture.png);
     @include customStyles;
@@ -86,7 +101,7 @@
     list-style: none;
     position: relative;
     &:after {
-      content: "";
+      content: '';
       display: inline-block;
       width: 1px;
       background: #ffbd39;
@@ -100,7 +115,7 @@
       margin-bottom: 8px;
       color: #bdc1c6;
       &:after {
-        content: "";
+        content: '';
         display: inline-block;
         width: 8px;
         height: 8px;

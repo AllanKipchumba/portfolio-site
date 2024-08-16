@@ -10,32 +10,36 @@
   //@at-root
   .container {
     div:nth-child(1) {
-      background-image: url("./assets/Architecture.png");
+      background-image: url('./assets/mzizi.png');
       @include bgImageCustomStyles;
     }
     div:nth-child(2) {
-      background-image: url("./assets/rylan\ web-app.PNG");
+      background-image: url('./assets/mwalimu_ai.png');
       @include bgImageCustomStyles;
     }
     div:nth-child(3) {
-      background-image: url("./assets/e-shop.PNG");
+      background-image: url('./assets/agra_ai.png');
       @include bgImageCustomStyles;
     }
     div:nth-child(4) {
-      background-image: url("./assets/storyhub.PNG");
+      background-image: url('./assets/Architecture.png');
       @include bgImageCustomStyles;
-      box-shadow: inset 0 0 0 2000px rgba(25, 25, 25, 0.9);
     }
     div:nth-child(5) {
-      background-image: url("./assets/rest.png");
+      background-image: url('./assets/rylan\ web-app.PNG');
       @include bgImageCustomStyles;
     }
     div:nth-child(6) {
-      background-image: url("./assets/sogy.JPG");
+      background-image: url('./assets/e-shop.PNG');
       @include bgImageCustomStyles;
     }
     div:nth-child(7) {
-      background-image: url("./assets/simon.JPG");
+      background-image: url('./assets/storyhub.PNG');
+      @include bgImageCustomStyles;
+      box-shadow: inset 0 0 0 2000px rgba(25, 25, 25, 0.9);
+    }
+    div:nth-child(8) {
+      background-image: url('./assets/simon.JPG');
       @include bgImageCustomStyles;
     }
 

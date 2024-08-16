@@ -75,14 +75,6 @@ export const TickettingApp = () => {
             </p>
 
             <div className='btn'>
-              {/* <button>
-                <a
-                  href="https://dashboard-rylan-laundry-dms.vercel.app/"
-                  target="self"
-                >
-                  demo
-                </a>
-              </button> */}
               <button>
                 <a
                   href='https://github.com/AllanKipchumba/ticketingApp'
