@@ -32,47 +32,38 @@
 .project-container {
   min-height: 100vh;
   //@at-root
+  .project-heading-clean-receipts {
+    background-image: url(./assets/clean-receipts.png);
+    @include customStyles;
+  }
+
+  .project-heading-hover-marketing {
+    background-image: url(./assets/hover-creatives.png);
+    @include customStyles;
+  }
+
+  .project-heading-destiny-advertising {
+    background-image: url(./assets/destiny-advertising.png);
+    @include customStyles;
+  }
+
+  .project-heading-wazo-hive {
+    background-image: url(./assets/wazo-hive.png);
+    @include customStyles;
+  }
+
+  .project-heading-afyalife-foundation {
+    background-image: url(./assets/afya-life-foundation.png);
+    @include customStyles;
+  }
+
+  .project-heading-kim-bronze {
+    background-image: url(./assets/kim-bronze.png);
+    @include customStyles;
+  }
+
   .project-heading-mziziapp {
     background-image: url(./assets/mzizi.png);
-    @include customStyles;
-  }
-
-  .project-heading-mwalimuai {
-    background-image: url(./assets/mwalimu_ai.png);
-    @include customStyles;
-  }
-
-  .project-heading-agraai {
-    background-image: url(./assets/mzizi.png);
-    @include customStyles;
-  }
-
-  .project-heading-ticketting {
-    background-image: url(./assets/Architecture.png);
-    @include customStyles;
-  }
-  .project-heading-rylan {
-    background-image: url(./assets/rylan.PNG);
-    @include customStyles;
-  }
-  .project-heading-e-shop {
-    background-image: url(./assets/e-shop.PNG);
-    @include customStyles;
-  }
-  .project-heading-storyhub {
-    background-image: url(./assets/storyhub.PNG);
-    @include customStyles;
-  }
-  .project-heading-sogy {
-    background-image: url(./assets/sogy.JPG);
-    @include customStyles;
-  }
-  .project-heading-taskmanager {
-    background-image: url(./assets/rest.png);
-    @include customStyles;
-  }
-  .project-heading-simonGame {
-    background-image: url(./assets/simon.JPG);
     @include customStyles;
   }
   .btn {

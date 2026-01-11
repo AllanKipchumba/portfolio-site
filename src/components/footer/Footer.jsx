@@ -16,12 +16,13 @@ export const Footer = () => {
         <div className='mb-6'>
           <h1>Services</h1>
           <p className='text-[#808080]'>
-            Feel free to reach out for professional web application development
-            services. Whether you need a simple landing page or a complex web
-            application, I can deliver it with high quality and speed. I will
-            customize your website to match your goals, preferences, and budget,
-            ensuring it is responsive, secure, and optimized for SEO and
-            performance. Contact me today to get your dream website! 😊
+            I offer professional web application development services tailored to
+            your business needs. From elegant landing pages to complex, scalable
+            web applications, I deliver solutions that combine quality craftsmanship
+            with efficient development practices. Every project is customized to align
+            with your objectives, brand identity, and technical requirements, ensuring
+            responsive design, robust security, and optimal performance. Let's discuss
+            how I can help bring your vision to life.
           </p>
         </div>
 
@@ -87,7 +88,7 @@ export const Footer = () => {
                   scroll.scrollToTop();
                 }}
               >
-                home
+                Home
               </li>
               <li>
                 <Link
@@ -98,7 +99,19 @@ export const Footer = () => {
                   offset={-65}
                   duration={1000}
                 >
-                  about
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  activeClass='active'
+                  to='experience'
+                  spy={true}
+                  smooth={true}
+                  offset={-65}
+                  duration={1000}
+                >
+                  Experience
                 </Link>
               </li>
               <li>
@@ -122,7 +135,7 @@ export const Footer = () => {
                   offset={-65}
                   duration={1000}
                 >
-                  projects
+                  Projects
                 </Link>
               </li>
             </ul>

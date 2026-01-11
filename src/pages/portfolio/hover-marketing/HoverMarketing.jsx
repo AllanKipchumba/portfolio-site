@@ -3,7 +3,7 @@ import '../main.scss';
 import { useNavigate } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 
-export const MziziApp = () => {
+export const HoverMarketing = () => {
   const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -11,10 +11,10 @@ export const MziziApp = () => {
 
   return (
     <div className='project-container bg-[#212124]'>
-      <div className='project-heading-mziziapp '>
+      <div className='project-heading-hover-marketing'>
         <div className='ml-8 md:ml-16 lg:ml-32'>
-          <h1>Mzizi App</h1>
-          <p>Full-Stack Web Application</p>
+          <h1>Hover Marketing Agency</h1>
+          <p>Creative Marketing & Consulting Agency</p>
         </div>
       </div>
 
@@ -25,14 +25,14 @@ export const MziziApp = () => {
               Overview
             </h2>
             <p className='text-[#bdc1c6]'>
-              Mzizi App is a comprehensive digital platform that serves as the complete web solution for mziziapp.com. The application delivers a seamless user experience through its modern, responsive design and intuitive interface. Built with cutting-edge web technologies, Mzizi App showcases professional development practices and attention to detail in both functionality and user experience design. The platform demonstrates expertise in creating scalable, maintainable web applications that effectively serve their intended purpose while maintaining high standards of performance and usability.
+              Hover Marketing is a creative studio and consulting agency that specializes in elevating bold brands, curating memorable experiences, and developing ideas that refuse to be ordinary. As a 360 Marketing Agency, Hover operates at the convergence of marketing, technology, and consulting to drive impact and sustainable growth. The agency serves as a bridge that creates value for brands, rights holders, and media platforms through contemporary partnerships across the marketing ecosystem. Using data and technology, Hover helps brands deliver their message through strategic campaigns that span digital platforms, traditional media, and experiential marketing initiatives.
               <br />
               <br />
             </p>
 
             <div className='btn'>
               <button>
-                <a href='https://www.mziziapp.com/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://hover-marketing-agency.vercel.app/' target='_blank' rel='noopener noreferrer'>
                   View Live Site
                 </a>
               </button>
@@ -48,3 +48,4 @@ export const MziziApp = () => {
     </div>
   );
 };
+

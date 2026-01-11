@@ -3,7 +3,7 @@ import '../main.scss';
 import { useNavigate } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 
-export const MziziApp = () => {
+export const KimBronze = () => {
   const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -11,10 +11,10 @@ export const MziziApp = () => {
 
   return (
     <div className='project-container bg-[#212124]'>
-      <div className='project-heading-mziziapp '>
+      <div className='project-heading-kim-bronze'>
         <div className='ml-8 md:ml-16 lg:ml-32'>
-          <h1>Mzizi App</h1>
-          <p>Full-Stack Web Application</p>
+          <h1>Kim Bronze Sculptures</h1>
+          <p>African Wildlife Art Gallery</p>
         </div>
       </div>
 
@@ -25,14 +25,14 @@ export const MziziApp = () => {
               Overview
             </h2>
             <p className='text-[#bdc1c6]'>
-              Mzizi App is a comprehensive digital platform that serves as the complete web solution for mziziapp.com. The application delivers a seamless user experience through its modern, responsive design and intuitive interface. Built with cutting-edge web technologies, Mzizi App showcases professional development practices and attention to detail in both functionality and user experience design. The platform demonstrates expertise in creating scalable, maintainable web applications that effectively serve their intended purpose while maintaining high standards of performance and usability.
+              Kim Bronze Sculptures showcases the extraordinary work of Kimani Kiarie, a self-taught African wildlife sculptor dedicated to preserving the beauty and heritage of Africa's wildlife through art. The website presents a carefully curated gallery of bronze sculptures capturing the essence of African wildlife, from majestic elephants to graceful gazelles. Each piece reflects Kimani's mastery of traditional bronze cast techniques, refined during his 14 years working with fossils and artifacts at the National Museums of Kenya. The platform serves as both an artistic showcase and a means for collectors and nature enthusiasts to explore and acquire these handcrafted tributes to Africa's rich natural heritage.
               <br />
               <br />
             </p>
 
             <div className='btn'>
               <button>
-                <a href='https://www.mziziapp.com/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://kimbronze.co.ke/' target='_blank' rel='noopener noreferrer'>
                   View Live Site
                 </a>
               </button>
@@ -48,3 +48,4 @@ export const MziziApp = () => {
     </div>
   );
 };
+

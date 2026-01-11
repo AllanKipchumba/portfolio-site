@@ -22,36 +22,84 @@
 
 .image-container {
   position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  
+  @media (min-width: 768px) {
+    min-height: 400px;
+  }
+  
+  @media (min-width: 1024px) {
+    min-height: 450px;
+  }
 }
 
 .image {
+  width: 70%;
+  max-width: 400px;
   height: auto;
   display: block;
   transition: opacity 0.5s ease-in-out;
-}
-
-.image.loading {
-  opacity: 0;
+  object-fit: contain;
+  
+  @media (min-width: 640px) {
+    width: 65%;
+    max-width: 450px;
+  }
+  
+  @media (min-width: 768px) {
+    width: 75%;
+    max-width: 500px;
+  }
+  
+  @media (min-width: 1024px) {
+    width: 80%;
+    max-width: 550px;
+  }
+  
+  &.loading {
+    opacity: 0;
+  }
 }
 
 .shimmer {
   position: absolute;
   border: 1px solid #999999;
-  border-radius: 10px;
-  top: 0;
-  left: 0;
-  width: 80%;
-  height: 80%;
-  background-color: #f6f7f8;
+  border-radius: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  max-width: 400px;
+  aspect-ratio: 1;
+  background-color: #1a1a1a;
   background-image: linear-gradient(
     to right,
-    #f6f7f8 0%,
-    #edeef1 20%,
-    #f6f7f8 40%,
-    #f6f7f8 100%
+    #1a1a1a 0%,
+    #2a2a2a 20%,
+    #1a1a1a 40%,
+    #1a1a1a 100%
   );
   background-size: 800px 104px;
-  animation: shimmer 1s ease-out forwards infinite;
+  animation: shimmer 1.5s ease-in-out infinite;
+  
+  @media (min-width: 640px) {
+    width: 65%;
+    max-width: 450px;
+  }
+  
+  @media (min-width: 768px) {
+    width: 75%;
+    max-width: 500px;
+  }
+  
+  @media (min-width: 1024px) {
+    width: 80%;
+    max-width: 550px;
+  }
 }
 
 @keyframes shimmer {

@@ -3,7 +3,7 @@ import '../main.scss';
 import { useNavigate } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 
-export const MziziApp = () => {
+export const CleanReceipts = () => {
   const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -11,10 +11,10 @@ export const MziziApp = () => {
 
   return (
     <div className='project-container bg-[#212124]'>
-      <div className='project-heading-mziziapp '>
+      <div className='project-heading-clean-receipts'>
         <div className='ml-8 md:ml-16 lg:ml-32'>
-          <h1>Mzizi App</h1>
-          <p>Full-Stack Web Application</p>
+          <h1>Clean Receipts</h1>
+          <p>AI-Powered Receipt Management Platform</p>
         </div>
       </div>
 
@@ -25,14 +25,14 @@ export const MziziApp = () => {
               Overview
             </h2>
             <p className='text-[#bdc1c6]'>
-              Mzizi App is a comprehensive digital platform that serves as the complete web solution for mziziapp.com. The application delivers a seamless user experience through its modern, responsive design and intuitive interface. Built with cutting-edge web technologies, Mzizi App showcases professional development practices and attention to detail in both functionality and user experience design. The platform demonstrates expertise in creating scalable, maintainable web applications that effectively serve their intended purpose while maintaining high standards of performance and usability.
+              Clean Receipts is an innovative AI-powered receipt management platform designed to streamline expense tracking and financial record-keeping. The platform leverages advanced artificial intelligence to automatically extract, categorize, and organize receipt data, eliminating the need for manual data entry. Built with modern web technologies, Clean Receipts provides businesses and individuals with a seamless solution for managing receipts, tracking expenses, and generating comprehensive financial reports. The platform's intelligent processing capabilities ensure accuracy and efficiency, making financial management more accessible and less time-consuming.
               <br />
               <br />
             </p>
 
             <div className='btn'>
               <button>
-                <a href='https://www.mziziapp.com/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://keeva-ai-clean-receipts.vercel.app/' target='_blank' rel='noopener noreferrer'>
                   View Live Site
                 </a>
               </button>
@@ -48,3 +48,4 @@ export const MziziApp = () => {
     </div>
   );
 };
+

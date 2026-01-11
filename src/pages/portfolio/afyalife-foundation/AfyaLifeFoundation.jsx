@@ -3,7 +3,7 @@ import '../main.scss';
 import { useNavigate } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 
-export const MziziApp = () => {
+export const AfyaLifeFoundation = () => {
   const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -11,10 +11,10 @@ export const MziziApp = () => {
 
   return (
     <div className='project-container bg-[#212124]'>
-      <div className='project-heading-mziziapp '>
+      <div className='project-heading-afyalife-foundation'>
         <div className='ml-8 md:ml-16 lg:ml-32'>
-          <h1>Mzizi App</h1>
-          <p>Full-Stack Web Application</p>
+          <h1>AfyaLife Foundation</h1>
+          <p>Healthcare & Wellness Foundation</p>
         </div>
       </div>
 
@@ -25,14 +25,14 @@ export const MziziApp = () => {
               Overview
             </h2>
             <p className='text-[#bdc1c6]'>
-              Mzizi App is a comprehensive digital platform that serves as the complete web solution for mziziapp.com. The application delivers a seamless user experience through its modern, responsive design and intuitive interface. Built with cutting-edge web technologies, Mzizi App showcases professional development practices and attention to detail in both functionality and user experience design. The platform demonstrates expertise in creating scalable, maintainable web applications that effectively serve their intended purpose while maintaining high standards of performance and usability.
+              AfyaLife Foundation is a healthcare and wellness organization dedicated to improving health outcomes and promoting wellness initiatives. The foundation's digital presence provides comprehensive information about their programs, initiatives, and impact in the healthcare sector. Through a modern and accessible web platform, AfyaLife Foundation connects with communities, donors, and stakeholders to advance their mission of creating healthier communities and improving access to quality healthcare services.
               <br />
               <br />
             </p>
 
             <div className='btn'>
               <button>
-                <a href='https://www.mziziapp.com/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.afyalifefoundation.co.uk/' target='_blank' rel='noopener noreferrer'>
                   View Live Site
                 </a>
               </button>
@@ -48,3 +48,4 @@ export const MziziApp = () => {
     </div>
   );
 };
+

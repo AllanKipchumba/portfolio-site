@@ -9,47 +9,47 @@ export const About = () => {
     <>
       <div className={styles.about} id='about'>
         <h1 className='foo py-14 capitalize text-[50px] font-[700] leading-[75px] text-center'>
-          about me
+          About Me
         </h1>
 
         <div className='relative  max-w-[80%] mx-auto pb-[100px]'>
           <div className='gap-4 md:gap-10 lg:gap-0 grid grid-cols-1 md:grid-cols-2'>
-            <div className={`flex justify-center ${styles['image-container']}`}>
+            <div className={`flex justify-center items-center ${styles['image-container']}`}>
               {loading && <div className={styles.shimmer}></div>}
               <img
-                src='https://firebasestorage.googleapis.com/v0/b/storyhub-ced7b.appspot.com/o/images_prod%2Fprofile_image.webp?alt=media&token=f279dad4-8a7e-43c2-b946-bc5b6bc9a967'
-                alt='developer'
-                className={`w-[50%] md:hidden lg:block lg:w-[60%] ${
-                  styles.image
-                } ${loading ? `${styles.loading}` : ``}`}
+                src='https://firebasestorage.googleapis.com/v0/b/storyhub-ced7b.appspot.com/o/images_prod%2FProfessional%20profile%20image.png?alt=media&token=ad17557a-2c5b-4013-9589-8f2c749b87e3'
+                alt='Allan Kipchumba - Senior Software Engineer'
+                className={`${styles.image} ${loading ? styles.loading : ''}`}
                 onLoad={() => setLoading(false)}
+                loading='lazy'
               />
             </div>
             <div className='lg:mt-[40px]'>
               <h1 className='text-3xl font-bold mb-2'>
-                I am <span className='text-[#ffbd39]'>Allan kipchumba,</span>
+                I am <span className='text-[#ffbd39]'>Allan Kipchumba,</span>
               </h1>
               <p className='uppercase tracking-[5px] mb-5'>
-                A Mid-level Software Engineer.
+                A Software Engineer
               </p>
 
               <p>
-                I am a self-taught mid-level software engineer with over 4 years
-                of experience in building web applications using JavaScript and
-                TypeScript. My journey has taken me through several
-                organizations, including Adanian Labs, Mzizi, and Kwaju Africa,
-                where I honed my problem-solving skills. With a solid
-                engineering background, I bring a strong technical foundation
-                and an innovative approach to addressing business challenges,
-                always keeping the unique needs of each project in focus.{' '}
+                I am a software engineer with over 6 years of experience specializing in
+                building scalable web applications using JavaScript and TypeScript. 
+                Throughout my career, I've had the privilege of working with innovative
+                organizations including Adanian Labs, Mzizi, and Kwaju Africa, where I've
+                refined my expertise in developing robust solutions that address complex
+                business challenges. My approach combines strong technical fundamentals
+                with innovative problem-solving, ensuring that each project delivers
+                measurable value while meeting unique client requirements.
               </p>
               <br />
               <p>
-                As an effective team player, I excel in collaboration and
-                communication, and I have a proven track record of delivering
-                high-quality, secure applications. I am excited about the
-                opportunity to work together to build or revamp your web
-                application.
+                I thrive in collaborative environments and am passionate about creating
+                high-quality, secure, and performant applications. With a proven track
+                record of delivering successful projects from conception to deployment,
+                I'm committed to helping organizations achieve their digital transformation
+                goals. I'm always excited to discuss how we can work together to build
+                or enhance your next web application.
               </p>
               <Link
                 activeClass='active'
@@ -59,7 +59,7 @@ export const About = () => {
                 offset={-65}
                 duration={1000}
               >
-                <button>Let's connect</button>
+                <button>Let's Connect</button>
               </Link>
             </div>
           </div>

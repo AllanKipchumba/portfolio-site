@@ -8,7 +8,7 @@ export const Skills = () => {
     <>
       <div className='skills pb-[50px]' id='skills'>
         <h1 className='pt-14 foo pb-5 capitalize text-[50px] font-[700] leading-[75px] text-center'>
-          my skills
+          Technical Skills
         </h1>
 
         <div className='grid grid-cols-1 md:grid-cols-2 max-w-[80%] gap-14 p-10 mx-auto'>

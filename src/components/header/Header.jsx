@@ -10,17 +10,17 @@ export const Header = () => {
     <div className='header'>
       <Navbar />
       <div className='text-white pt-[35vh]'>
-        <h1 className='text-center mb-4 uppercase font-bold'>Hello 👋</h1>
+        <h1 className='text-center mb-4 uppercase font-bold'>Hello, I'm Allan</h1>
         <h1 className='text-center uppercase tracking-[2px] font-bold text-lg'>
-          welcome to my website
+          Welcome to My Portfolio
         </h1>
 
         <p className='mt-8 text-center'>
           <Typed
             strings={[
               'I am Allan Kipchumba.',
-              'a mid-level Software Engineer.',
-              'Let us build amazing products together.',
+              'a Senior Software Engineer.',
+              'Let\'s build innovative solutions together.',
             ]}
             typeSpeed={100}
             backSpeed={50}
@@ -39,7 +39,7 @@ export const Header = () => {
           offset={-65}
           duration={1000}
         >
-          <button>View Work</button>
+          <button>View My Work</button>
         </Link>
       </div>
 

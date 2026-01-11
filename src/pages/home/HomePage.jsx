@@ -1,6 +1,7 @@
 import React from "react";
 import { About } from "../../components/about/About";
 import { Education } from "../../components/education/Education";
+import { Experience } from "../../components/experience/Experience";
 import { Footer } from "../../components/footer/Footer";
 import { Header } from "../../components/header/Header";
 import { Projects } from "../../components/projects/Projects";
@@ -11,6 +12,7 @@ export const HomePage = () => {
     <>
       <Header />
       <About />
+      <Experience />
       <Education />
       <Skills />
       <Projects />

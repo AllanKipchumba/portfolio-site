@@ -1,34 +1,26 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import {
-  HomePage,
-  TaskmanagerApi,
-  SimonGame,
-  Sogy,
-  Eshop,
-  StoryHub,
-  Rylan,
-  TickettingApp,
-} from './pages/index';
+import { HomePage } from './pages/index';
 import { MziziApp } from './pages/portfolio/mzizi/MziziApp';
-import { MwalimuAI } from './pages/portfolio/mwalimuai/MwalimuAI';
-import { AgraAi } from './pages/portfolio/agraai/AgraAi';
+import { CleanReceipts } from './pages/portfolio/clean-receipts/CleanReceipts';
+import { HoverMarketing } from './pages/portfolio/hover-marketing/HoverMarketing';
+import { DestinyAdvertising } from './pages/portfolio/destiny-advertising/DestinyAdvertising';
+import { WazoHive } from './pages/portfolio/wazo-hive/WazoHive';
+import { AfyaLifeFoundation } from './pages/portfolio/afyalife-foundation/AfyaLifeFoundation';
+import { KimBronze } from './pages/portfolio/kim-bronze/KimBronze';
 
 export const App = () => {
   return (
     <>
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='e-shop' element={<Eshop />} />
-        <Route path='storyhub' element={<StoryHub />} />
-        <Route path='taskmanagerAPI' element={<TaskmanagerApi />} />
-        <Route path='simon-game-clone' element={<SimonGame />} />
-        <Route path='landing-page' element={<Sogy />} />
-        <Route path='rylan_laundry_DMS' element={<Rylan />} />
-        <Route path='ticketing-app' element={<TickettingApp />} />
+        <Route path='clean-receipts' element={<CleanReceipts />} />
+        <Route path='hover-marketing' element={<HoverMarketing />} />
+        <Route path='destiny-advertising' element={<DestinyAdvertising />} />
+        <Route path='wazo-hive' element={<WazoHive />} />
+        <Route path='afyalife-foundation' element={<AfyaLifeFoundation />} />
+        <Route path='kim-bronze' element={<KimBronze />} />
         <Route path='mziziapp' element={<MziziApp />} />
-        <Route path='mwalimu_ai' element={<MwalimuAI />} />
-        <Route path='agra_ai' element={<AgraAi />} />
       </Routes>
     </>
   );
