@@ -16,13 +16,16 @@ export const Footer = () => {
         <div className='mb-6'>
           <h1>Services</h1>
           <p className='text-[#808080]'>
-            I offer professional web application development services tailored to
-            your business needs. From elegant landing pages to complex, scalable
-            web applications, I deliver solutions that combine quality craftsmanship
-            with efficient development practices. Every project is customized to align
-            with your objectives, brand identity, and technical requirements, ensuring
-            responsive design, robust security, and optimal performance. Let's discuss
-            how I can help bring your vision to life.
+            I offer professional software development services tailored to your business
+            needs. From elegant websites to complex, scalable web
+            applications and backend systems, I deliver solutions that combine quality
+            craftsmanship with efficient development practices. With expertise in system
+            architecture, backend infrastructure, and software development, every
+            project is customized to align with your objectives, technical requirements,
+            and growth plans ensuring robust security, optimal performance, and scalability.
+            Whether you're launching a new product, modernizing existing systems, or
+            building AI-powered solutions, let's discuss how I can help bring your vision
+            to life.
           </p>
         </div>
 

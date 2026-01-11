@@ -14,20 +14,7 @@ export const Skills = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 max-w-[80%] gap-14 p-10 mx-auto'>
           <div>
             <div>
-              <p>JavaScript</p>
-              <ProgressBar
-                completed={98}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-
-            <div>
-              <p>TypeScript</p>
+              <p>Backend Systems Design & Development</p>
               <ProgressBar
                 completed={95}
                 bgColor='#ffbd39'
@@ -40,9 +27,9 @@ export const Skills = () => {
             </div>
 
             <div>
-              <p>React.js</p>
+              <p>Software Architecture</p>
               <ProgressBar
-                completed={99}
+                completed={92}
                 bgColor='#ffbd39'
                 baseBgColor='#1a1a1a'
                 isLabelVisible={false}
@@ -51,8 +38,22 @@ export const Skills = () => {
                 height='10px'
               />
             </div>
+
             <div>
-              <p>Next.js</p>
+              <p>System Design</p>
+              <ProgressBar
+                completed={93}
+                bgColor='#ffbd39'
+                baseBgColor='#1a1a1a'
+                isLabelVisible={false}
+                transitionDuration='2s'
+                animateOnRender={true}
+                height='10px'
+              />
+            </div>
+
+            <div>
+              <p>Website Development</p>
               <ProgressBar
                 completed={95}
                 bgColor='#ffbd39'
@@ -65,58 +66,9 @@ export const Skills = () => {
             </div>
 
             <div>
-              <p>Firebase</p>
+              <p>Microservices Architecture</p>
               <ProgressBar
-                completed={95}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-            <div>
-              <p>Redux</p>
-              <ProgressBar
-                completed={95}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-            <div>
-              <p>Sass</p>
-              <ProgressBar
-                completed={98}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-            <div>
-              <p>Tailwind css</p>
-              <ProgressBar
-                completed={95}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-
-            <div>
-              <p>SEO</p>
-              <ProgressBar
-                completed={95}
+                completed={94}
                 bgColor='#ffbd39'
                 baseBgColor='#1a1a1a'
                 isLabelVisible={false}
@@ -128,7 +80,7 @@ export const Skills = () => {
           </div>
           <div>
             <div>
-              <p>Node.js</p>
+              <p>Event-Driven Systems Design</p>
               <ProgressBar
                 completed={90}
                 bgColor='#ffbd39'
@@ -139,22 +91,11 @@ export const Skills = () => {
                 height='10px'
               />
             </div>
+
             <div>
-              <p>Express.js</p>
+              <p>Database Design & Administration</p>
               <ProgressBar
-                completed={99}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-            <div>
-              <p>MongoDB</p>
-              <ProgressBar
-                completed={95}
+                completed={93}
                 bgColor='#ffbd39'
                 baseBgColor='#1a1a1a'
                 isLabelVisible={false}
@@ -165,70 +106,9 @@ export const Skills = () => {
             </div>
 
             <div>
-              <p>Git</p>
+              <p>AI Integration in Business</p>
               <ProgressBar
-                completed={98}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-
-            <div>
-              <p>Microservices</p>
-              <ProgressBar
-                completed={94}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-            <div>
-              <p>Docker</p>
-              <ProgressBar
-                completed={85}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-            <div>
-              <p>Redis</p>
-              <ProgressBar
-                completed={95}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-            <div>
-              <p>SQL</p>
-              <ProgressBar
-                completed={95}
-                bgColor='#ffbd39'
-                baseBgColor='#1a1a1a'
-                isLabelVisible={false}
-                transitionDuration='2s'
-                animateOnRender={true}
-                height='10px'
-              />
-            </div>
-            <div>
-              <p>ORMs</p>
-              <ProgressBar
-                completed={95}
+                completed={88}
                 bgColor='#ffbd39'
                 baseBgColor='#1a1a1a'
                 isLabelVisible={false}

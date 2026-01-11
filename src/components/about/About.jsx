@@ -33,23 +33,24 @@ export const About = () => {
               </p>
 
               <p>
-                I am a software engineer with over 6 years of experience specializing in
-                building scalable web applications using JavaScript and TypeScript. 
-                Throughout my career, I've had the privilege of working with innovative
-                organizations including Adanian Labs, Mzizi, and Kwaju Africa, where I've
-                refined my expertise in developing robust solutions that address complex
-                business challenges. My approach combines strong technical fundamentals
-                with innovative problem-solving, ensuring that each project delivers
-                measurable value while meeting unique client requirements.
+                I am a software engineer with over 4 years of experience specializing in
+                building scalable backend systems and web applications. I approach systems
+                with the precision to understand their deeper patterns and the pragmatism
+                to architect solutions that scale. Throughout my career, I've worked with
+                innovative organizations including Nafa Financial Services, Kwaju Africa,
+                and Adanian Labs, where I've honed my ability to transform complex business
+                challenges into elegant technical solutions.
               </p>
               <br />
               <p>
-                I thrive in collaborative environments and am passionate about creating
-                high-quality, secure, and performant applications. With a proven track
-                record of delivering successful projects from conception to deployment,
-                I'm committed to helping organizations achieve their digital transformation
-                goals. I'm always excited to discuss how we can work together to build
-                or enhance your next web application.
+                I see complexity as an opportunity to thoughtfully orchestrate the smallest
+                units of a problem space, building systems that not only work today but
+                adapt gracefully to tomorrow's demands. Driven by intellectual curiosity
+                and the satisfaction of building robust solutions, I believe the best systems
+                emerge from teams who challenge assumptions and refine ideas until they reach
+                something truly resilient. I collaborate effectively and am always open to
+                diverse perspectives, working together to arrive at unified solutions that
+                reflect the careful thought that went into understanding them in the first place.
               </p>
               <Link
                 activeClass='active'
