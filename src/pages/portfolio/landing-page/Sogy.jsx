@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../main.scss';
-import { Fade } from 'react-reveal';
+import { Fade } from '../../../components/common/Fade';
 import { useEffect } from 'react';
 
 export const Sogy = () => {

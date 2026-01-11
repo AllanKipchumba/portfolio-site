@@ -17,7 +17,7 @@ export const Footer = () => {
           <h1>Services</h1>
           <p className='text-[#808080]'>
             I offer professional software development services tailored to your business
-            needs. From elegant websites to complex, scalable web
+            needs. From elegant websites to scalable web
             applications and backend systems, I deliver solutions that combine quality
             craftsmanship with efficient development practices. With expertise in system
             architecture, backend infrastructure, and software development, every

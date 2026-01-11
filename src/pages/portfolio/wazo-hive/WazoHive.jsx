@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import '../main.scss';
+import '../../../components/common/Fade.css';
 import { useNavigate } from 'react-router-dom';
-import { Fade } from 'react-reveal';
 
 export const WazoHive = () => {
   const navigate = useNavigate();
@@ -19,8 +19,7 @@ export const WazoHive = () => {
       </div>
 
       <div className='pt-12 max-w-[80%] mx-auto grid grid-cols-1 md:grid-cols-4 gap-1 md:gap-8'>
-        <Fade top>
-          <div className='md:col-span-4 bg-[#39393F] rounded-3xl p-5 mb-3'>
+        <div className='fade-top md:col-span-4 bg-[#39393F] rounded-3xl p-5 mb-3'>
             <h2 className='capitalize text-[36px] text-[#ffbd39] font-[700] tracking-[0.4px] leading-[75px]'>
               Overview
             </h2>
@@ -38,7 +37,6 @@ export const WazoHive = () => {
               </button>
             </div>
           </div>
-        </Fade>
       </div>
       <div className='max-w-[80%] mx-auto'>
         <button onClick={() => navigate(-1)} className='back-btn'>

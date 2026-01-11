@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Fade } from 'react-reveal';
 import { Link } from 'react-scroll';
 
 export const SoftwareEngineering = () => {
@@ -13,8 +12,7 @@ export const SoftwareEngineering = () => {
       <button onClick={() => setHide(!hide)}>Read More</button>
 
       {hide && (
-        <Fade left>
-          <div className='readmore md:left-[-40vw]'>
+        <div className='readmore md:left-[-40vw]'>
             <h1>The App Brewery</h1>
             <h2>London</h2>
             <p>
@@ -40,7 +38,6 @@ export const SoftwareEngineering = () => {
               </button>
             </Link>
           </div>
-        </Fade>
       )}
     </>
   );

@@ -13,43 +13,43 @@ export const Projects = () => {
           <div>
             <h1>Clean Receipts</h1>
             <button>
-              <Link to='/clean-receipts'>read more</Link>
+              <Link to='/clean-receipts'>Read more</Link>
             </button>
           </div>
           <div>
             <h1>Hover Marketing Agency</h1>
             <button>
-              <Link to='/hover-marketing'>read more</Link>
+              <Link to='/hover-marketing'>Read more</Link>
             </button>
           </div>
           <div>
             <h1>Destiny Advertising</h1>
             <button>
-              <Link to='/destiny-advertising'>read more</Link>
+              <Link to='/destiny-advertising'>Read more</Link>
             </button>
           </div>
           <div>
             <h1>Wazo Hive</h1>
             <button>
-              <Link to='/wazo-hive'>read more</Link>
+              <Link to='/wazo-hive'>Read more</Link>
             </button>
           </div>
           <div>
             <h1>AfyaLife Foundation</h1>
             <button>
-              <Link to='/afyalife-foundation'>read more</Link>
+              <Link to='/afyalife-foundation'>Read more</Link>
             </button>
           </div>
           <div>
             <h1>Kim Bronze</h1>
             <button>
-              <Link to='/kim-bronze'>read more</Link>
+              <Link to='/kim-bronze'>Read more</Link>
             </button>
           </div>
           <div>
             <h1>Mzizi App</h1>
             <button>
-              <Link to='/mziziapp'>read more</Link>
+              <Link to='/mziziapp'>Read more</Link>
             </button>
           </div>
         </div>
