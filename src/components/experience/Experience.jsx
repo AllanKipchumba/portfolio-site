@@ -6,7 +6,7 @@ export const Experience = () => {
   const experiences = [
     {
       id: 'nafa',
-      dates: 'July 2025 - Present',
+      dates: 'September 2025',
       title: 'Software Engineer',
       company: 'Nafa Financial Services',
       // location: 'Nairobi, Kenya',
